@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../digitala-karriarrevet.png";
+import logo from "../digitala-karriarrevet.svg";
 
 const Header = () => {
 	return (
