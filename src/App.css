@@ -19,7 +19,9 @@
 }
 
 .App-content {
-	max-height: 100vh;
+	background-image: url(./coral-reef.jpg);
+	background-size: cover;
+	min-height: 100vh;
 }
 
 .App-home {
