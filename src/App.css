@@ -1,14 +1,17 @@
 .App {
+	display: flex;
+	flex-flow: column;
+	min-height: 100vh;
 	text-align: center;
 	background-image: url(./coral-reef.jpg);
 	background-size: cover;
-	min-height: 100vh;
 }
 
 .App-header {
 	/* background-color: #282c34; */
-	min-height: 10vh;
-	height: 10vh;
+	background-color: rgba(0, 0, 0, 0.2);
+	min-height: 5vh;
+	height: 5vh;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -26,28 +29,80 @@
 	filter: drop-shadow(16px 5px 10px black);
 }
 
-.App-container {
-	flex: 1;
+.start-container .App-logo {
+	width: 40vw;
+}
+
+/* .App-container {
+	flex-grow: 1;
 	width: 85vw;
 	margin: auto;
 	overflow: hidden;
 	position: relative;
 	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
+	flex-flow: row wrap;
 	align-items: flex-start;
 	justify-content: center;
+} */
+
+.start-container {
+	flex-grow: 1;
+	width: 100vw;
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.start-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+	font-size: 20px;
+	font-weight: 150%;
+}
+
+.start-info__section {
+	margin: 5px;
 }
 
 .App-link {
 	color: #61dafb;
 }
 
+.btn {
+	cursor: pointer;
+}
+
+.btn-icon {
+	height: 100%;
+	object-fit: contain;
+}
+
+.btn-icon :hover {
+	animation: moveup 1s ease;
+	animation-iteration-count: infinite;
+}
+
+@keyframes moveup {
+	0% {
+		transform: translateY(0px);
+	}
+	90% {
+		transform: translateY(-4px);
+	}
+	100% {
+		transform: translateY(0px);
+	}
+}
+
 .App-container-item {
 	background-color: white;
 	margin: 5px;
-	height: 10vh;
-	width: 20vw;
+	height: 40vh;
+	width: 40vw;
 }
 
 @media screen and (max-width: 480px) {
