@@ -7,10 +7,8 @@ const HomePage = () => {
 		<div className="start-container">
 			<img className="App-logo" src={logo} alt="logo" />
 			<div className="start-info">
-				<div className="start-info__section">
-					<b>April 2020</b>
-				</div>
-				<div> |</div>
+				<div className="start-info__section">April 2020</div>
+				<div className="start-info__section"> | </div>
 				<div className="start-info__section">
 					Arrangerat av <b>NLG</b>
 				</div>
