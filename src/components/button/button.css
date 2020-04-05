@@ -1,0 +1,55 @@
+.btn {
+	font-size: calc(5px + 2vmin);
+	transition: 0.1s background-color linear, 0.1s color linear;
+}
+
+.btn-primary {
+	background: #fff;
+}
+
+.btn-primary:hover {
+	background: #000;
+}
+
+.btn-primary:active {
+	background: #000;
+}
+
+.btn-secondary {
+	background: #eee;
+}
+
+.btn-secondary:hover {
+	background: #eee;
+}
+
+.btn-secondary:active {
+	background: #eee;
+}
+
+.btn-tertiary {
+	border: none;
+	color: #fff;
+}
+
+.btn-tertiary:hover,
+.btn-tertiary:active {
+	color: #fff;
+}
+
+.special {
+	border: 0.2rem solid #fff;
+	width: 20rem;
+	height: 5rem;
+	background: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: calc(9px + 2vmin);
+	text-align: center;
+}
+
+.special:hover {
+	background: #fff;
+	color: #000;
+}
