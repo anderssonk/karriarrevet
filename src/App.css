@@ -11,15 +11,24 @@
 }
 
 .App-header {
-	min-height: 5vh;
-	height: 5vh;
+	font-family: "Poppins";
+	height: 10vh;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	justify-content: space-between;
 	align-items: flex-end;
-	justify-content: center;
-	font-size: calc(10px + 2vmin);
 	color: white;
-	padding: 10px;
+	padding: 0 5vw 0 5vw;
+}
+
+.nav-bar {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+}
+
+.nav-bar__item {
+	padding: 0 0.5rem 0 0.5rem;
 }
 
 .overlay {
@@ -47,6 +56,15 @@
 .App-logo {
 	height: 100%;
 	object-fit: contain;
+}
+
+.nlg-logo {
+	height: 100%;
+	object-fit: contain;
+}
+
+.start__nlg-logo {
+	height: 10vh;
 }
 
 .tiny {

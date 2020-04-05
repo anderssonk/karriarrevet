@@ -1,20 +1,25 @@
 import React from "react";
-import logo from "../digitala-karriarrevet.svg";
+// import logo from "../digitala-karriarrevet.svg";
 import Button from "./button/Button";
 import Header from "./Header";
 
-const HomePage = () => {
+const HomePage = ({ history }) => {
 	return (
 		<div className="container overlay">
 			<Header></Header>
 			<div className="start-container">
-				<img className="App-logo" src={logo} alt="logo" />
+				{/* <img className="App-logo" src={logo} alt="logo" /> */}
+				<h1>Digitala Karriärrevet</h1>
 				<div className="start-info">
 					<div className="start-info__section">
-						<Button special>Valbara kurser</Button>
+						<Button special onClick={() => history.push("/electables")}>
+							Valbara kurser
+						</Button>
 					</div>
 					<div className="start-info__section">
-						<Button special>Masterprogrammen</Button>
+						<Button special onClick={() => history.push("/programmes")}>
+							Masterprogrammen
+						</Button>
 					</div>
 				</div>
 			</div>

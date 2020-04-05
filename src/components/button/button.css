@@ -1,5 +1,7 @@
 .btn {
-	font-size: calc(5px + 2vmin);
+	font-family: "Poppins";
+	font-size: 1rem;
+	cursor: pointer;
 	transition: 0.1s background-color linear, 0.1s color linear;
 }
 
@@ -29,12 +31,14 @@
 
 .btn-tertiary {
 	border: none;
+	background: transparent;
 	color: #fff;
+	font-weight: 600;
 }
 
 .btn-tertiary:hover,
 .btn-tertiary:active {
-	color: #fff;
+	color: rgba(255, 255, 255, 0.5);
 }
 
 .special {
@@ -44,8 +48,9 @@
 	background: none;
 	color: #fff;
 	text-transform: uppercase;
-	font-weight: 600;
 	font-size: calc(9px + 2vmin);
+	font-weight: 600;
+	letter-spacing: 0.1rem;
 	text-align: center;
 }
 

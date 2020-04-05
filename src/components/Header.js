@@ -1,10 +1,14 @@
 import React from "react";
-import logo from "../digitala-karriarrevet.svg";
+import Button from "./button/Button";
 
 const Header = () => {
 	return (
 		<div className="App-header">
-			<img className="App-logo" src={logo} alt="logo" />
+			<Button type="tertiary">hem</Button>
+			<div className="nav-bar">
+				<Button type="tertiary">om karriärrevet</Button>
+				<Button type="tertiary">kontakt</Button>
+			</div>
 		</div>
 	);
 };

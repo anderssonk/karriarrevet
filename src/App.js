@@ -9,6 +9,7 @@ import HomePage from "./components/HomePage";
 import Electables from "./components/electables/Electables";
 import Programmes from "./components/programmes/Programmes";
 import "./App.css";
+import "./typography.css";
 
 function App() {
 	return (
@@ -18,15 +19,16 @@ function App() {
 					<Redirect exact from="/" to="/home" />
 					<Route path="/home" render={(props) => <HomePage {...props} />} />
 					<Route
-						path="/electables/:course"
+						path="/electables/"
 						render={(props) => <Electables {...props} />}
 					/>
 					<Route
-						path="/programmes/:programme"
+						path="/programmes/"
 						render={(props) => <Programmes {...props} />}
 					/>
 				</Switch>
 			</Router>
+			<div></div>
 		</div>
 	);
 }
