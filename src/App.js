@@ -15,8 +15,8 @@ import "./typography.css";
 function App() {
 	return (
 		<div className="App">
-			<Header></Header>
 			<Router>
+				<Header></Header>
 				<Switch>
 					<Redirect exact from="/" to="/home" />
 					<Route path="/home" render={(props) => <HomePage {...props} />} />

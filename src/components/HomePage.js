@@ -1,7 +1,6 @@
 import React from "react";
 // import logo from "../digitala-karriarrevet.svg";
 import Button from "./button/Button";
-import Header from "./Header";
 
 const HomePage = ({ history }) => {
 	return (

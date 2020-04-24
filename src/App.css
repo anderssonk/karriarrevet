@@ -1,5 +1,6 @@
 html {
 	scroll-behavior: smooth;
+	background: #101010;
 }
 .App {
 	background: #101010;
@@ -104,16 +105,35 @@ html {
 	flex: 1;
 }
 
-.content {
+.interview {
 	flex: 1;
-	min-height: 70vh;
-	background-color: #fff;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
 }
 
-.content-block {
+.interview__section {
+	border: none;
+}
+
+.q-and-a {
+	flex: 1;
+	background: #fff;
+	margin: 0 1rem 0 0;
+}
+
+.interviewee {
+	width: 25vw;
+}
+
+img {
+	width: inherit;
+}
+
+/* .content-block {
 	min-height: 90vh;
 	margin: auto;
-}
+} */
 
 .start-container {
 	flex-grow: 1;
@@ -128,7 +148,7 @@ html {
 .start-info {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: stretch;
 	align-items: center;
 	color: white;
 	font-size: calc(5px + 2vmin);

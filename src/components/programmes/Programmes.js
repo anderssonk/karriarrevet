@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../Header";
 import Button from "../button/Button";
 import Datalogi from "./Datalogi";
 import Interkativ from "./Interkativ";
