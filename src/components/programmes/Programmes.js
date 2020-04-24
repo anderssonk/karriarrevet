@@ -15,12 +15,12 @@ const Programmes = ({ history }) => {
 						</a>
 					</div>
 					<div className="start-info__section">
-						<a href="#interaktiv">
+						<a href="#interaktiv-medieteknik">
 							<Button special>Interaktiv medieteknik</Button>
 						</a>
 					</div>
 					<div className="start-info__section">
-						<a href="#maskin">
+						<a href="#maskininlarning">
 							<Button special>Maskininlärning</Button>
 						</a>
 					</div>

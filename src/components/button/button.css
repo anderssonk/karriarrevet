@@ -10,15 +10,15 @@
 }
 
 .btn-primary {
-	background: #fff;
+	background: #eee;
 }
 
 .btn-primary:hover {
-	background: #000;
+	background: #222222;
 }
 
 .btn-primary:active {
-	background: #000;
+	background: #222222;
 }
 
 .btn-secondary {
@@ -36,7 +36,7 @@
 .btn-tertiary {
 	border: none;
 	background: transparent;
-	color: #fff;
+	color: #eee;
 	font-weight: 600;
 }
 
@@ -46,11 +46,11 @@
 }
 
 .special {
-	border: 0.2rem solid #fff;
+	border: 0.2rem solid #eee;
 	min-width: 24rem;
 	height: 5rem;
 	background: none;
-	color: #fff;
+	color: #eee;
 	text-transform: uppercase;
 	font-size: calc(9px + 2vmin);
 	font-weight: 600;
@@ -59,6 +59,6 @@
 }
 
 .special:hover {
-	background: #fff;
-	color: #000;
+	background: #eee;
+	color: #222222;
 }

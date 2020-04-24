@@ -7,6 +7,14 @@ h6 {
 	font-family: "Poppins";
 }
 
+h1,
+h2,
+h3,
+h5,
+h6 {
+	color: #eee;
+}
+
 p,
 span {
 	font-family: "Roboto", sans-serif;
@@ -14,19 +22,16 @@ span {
 
 h1 {
 	font-size: 7rem;
-	color: #fff;
 	margin: 0 0 1rem;
 }
 
 h2 {
 	font-size: 5rem;
-	color: #fff;
 	margin: 0 0 1rem;
 }
 
 h3 {
 	font-size: 2.5rem;
-	color: #fff;
 	margin: 0 0 1rem;
 }
 
@@ -38,7 +43,6 @@ h4 {
 
 h5 {
 	font-size: 1.5rem;
-	color: #fff;
 	margin: 0 0 0.1rem;
 }
 
@@ -46,6 +50,5 @@ h6 {
 	font-size: 1rem;
 	font-style: italic;
 	font-weight: 500;
-	color: #fff;
 	margin: 0;
 }

@@ -6,7 +6,10 @@ const Interview = (name, img, answers) => {
 		<>
 			<div className="interview">
 				<div className="interview__section q-and-a">
-					det här är en interview__section
+					<p>
+						<b>Hur kommer det sig att du valde en maskros?</b>
+						<p>Den smakade bättre än de andra blommorna </p>
+					</p>
 				</div>
 				<div className="interview__section interviewee">
 					<img id={pic} src={pic} alt={pic}></img>
