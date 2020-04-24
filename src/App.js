@@ -12,6 +12,14 @@ import Programmes from "./components/programmes/Programmes";
 import "./App.css";
 import "./typography.css";
 
+window.addEventListener("scroll", function () {
+	if (document.documentElement.scrollTop > 40) {
+		document.getElementById("header").classList.add("nav-up");
+	} else {
+		document.getElementById("header").classList.remove("nav-up");
+	}
+});
+
 function App() {
 	return (
 		<div className="App">
@@ -20,6 +28,7 @@ function App() {
 				<Switch>
 					<Redirect exact from="/" to="/home" />
 					<Route path="/home" render={(props) => <HomePage {...props} />} />
+
 					<Route
 						path="/electables/"
 						render={(props) => <Electables {...props} />}

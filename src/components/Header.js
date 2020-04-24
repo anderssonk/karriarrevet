@@ -4,7 +4,7 @@ import Button from "./button/Button";
 
 const Header = () => {
 	return (
-		<div className="App-header">
+		<div className="App-header" id="header">
 			<Link to="/">
 				<Button type="tertiary">hem</Button>
 			</Link>

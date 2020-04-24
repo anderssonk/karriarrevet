@@ -7,8 +7,7 @@ const Programmes = ({ history }) => {
 	return (
 		<div className="container">
 			<div className="start-container">
-				{/* <img className="App-logo" src={logo} alt="logo" /> */}
-				<h2>Masterprogrammen</h2>
+				<h2>Masterprogram</h2>
 				<div className="start-info">
 					<div className="start-info__section">
 						<a href="#datalogi">

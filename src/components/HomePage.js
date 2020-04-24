@@ -4,7 +4,7 @@ import Button from "./button/Button";
 
 const HomePage = ({ history }) => {
 	return (
-		<div className="container overlay">
+		<div className="container reef">
 			<div className="start-container">
 				{/* <img className="App-logo" src={logo} alt="logo" /> */}
 				<h1>Digitala Karriärrevet</h1>
@@ -16,7 +16,7 @@ const HomePage = ({ history }) => {
 					</div>
 					<div className="start-info__section">
 						<Button special onClick={() => history.push("/programmes")}>
-							Masterprogrammen
+							Masterprogram
 						</Button>
 					</div>
 				</div>

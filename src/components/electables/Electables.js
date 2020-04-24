@@ -10,34 +10,34 @@ const Electables = ({ history }) => {
 				<div className="start-info">
 					<div className="start-info__section">
 						<a href="#blabla">
-							<Button special>XML för publicering</Button>
+							<Button special>XML:EN</Button>
 						</a>
 					</div>
 					<div className="start-info__section">
 						<a href="#blabla">
-							<Button special>Interaktionsprogrammering</Button>
+							<Button special>iProg:EN</Button>
 						</a>
 					</div>
 					<div className="start-info__section">
 						<a href="#blabla">
-							<Button special>Mobilutvecklingstekniken</Button>
+							<Button special>Mobilutvecklingen</Button>
 						</a>
 					</div>
 				</div>
 				<div className="start-info">
 					<div className="start-info__section">
 						<a href="#blabla">
-							<Button special>Diskret matematik</Button>
+							<Button special>Diskmatten</Button>
 						</a>
 					</div>
 					<div className="start-info__section">
 						<a href="#blabla">
-							<Button special>Algoritmer och komplexitet</Button>
+							<Button special>Algen</Button>
 						</a>
 					</div>
 					<div className="start-info__section">
 						<a href="#blabla">
-							<Button special>Programutvecklingsteknik</Button>
+							<Button special>prutten</Button>
 						</a>
 					</div>
 				</div>
