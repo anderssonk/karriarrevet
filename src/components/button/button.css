@@ -43,7 +43,7 @@
 
 .special {
 	border: 0.2rem solid #fff;
-	width: 20rem;
+	min-width: 21rem;
 	height: 5rem;
 	background: none;
 	color: #fff;

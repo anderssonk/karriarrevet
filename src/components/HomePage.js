@@ -6,7 +6,6 @@ import Header from "./Header";
 const HomePage = ({ history }) => {
 	return (
 		<div className="container overlay">
-			<Header></Header>
 			<div className="start-container">
 				{/* <img className="App-logo" src={logo} alt="logo" /> */}
 				<h1>Digitala Karriärrevet</h1>

@@ -5,6 +5,7 @@ import {
 	Redirect,
 	Route,
 } from "react-router-dom";
+import Header from "./components/Header";
 import HomePage from "./components/HomePage";
 import Electables from "./components/electables/Electables";
 import Programmes from "./components/programmes/Programmes";
@@ -14,6 +15,7 @@ import "./typography.css";
 function App() {
 	return (
 		<div className="App">
+			<Header></Header>
 			<Router>
 				<Switch>
 					<Redirect exact from="/" to="/home" />
