@@ -1,0 +1,116 @@
+{
+	"persons": [
+		{
+			"name": "Alexandra",
+			"programme": "maskininlärning",
+			"img": "alexandra.jpeg",
+			"answers": {
+				"a1": "",
+				"a2": "",
+				"a3": "",
+				"a4": "",
+				"a5": "",
+				"a6": ""
+			}
+		},
+		{
+			"name": "Emma",
+			"programme": "Datalogi, programvaruteknik",
+			"img": "emma.jpeg",
+			"answers": {
+				"a1": "",
+				"a2": "",
+				"a3": "",
+				"a4": "",
+				"a5": "",
+				"a6": ""
+			}
+		},
+		{
+			"name": "Fanny",
+			"programme": "Interaktiv Medieteknik, ljud",
+			"img": "fanny.jpeg",
+			"answers": {
+				"a1": "",
+				"a2": "",
+				"a3": "",
+				"a4": "",
+				"a5": "",
+				"a6": ""
+			}
+		},
+		{
+			"name": "Felix",
+			"programme": "Datalogi, teoretisk datalogi",
+			"img": "felix.jpeg",
+			"answers": {
+				"a1": "",
+				"a2": "",
+				"a3": "",
+				"a4": "",
+				"a5": "",
+				"a6": ""
+			}
+		},
+		{
+			"name": "Filip",
+			"programme": "Interaktiv Medieteknik, visuella medier",
+			"img": "filip.png",
+			"answers": {
+				"a1": "Jag velade l\u00E4nge mellan datalogi och interaktiv medieteknik, men k\u00E4nner till slut att jag valde helt r\u00E4tt med interaktiv medieteknik. \u00C4ven om det kanske g\u00E5r att argumentera f\u00F6r att datalogin i stort ger en n\u00E5got \"b\u00E4ttre\" och agnostisk programmeringsgrund, s\u00E5 har den \u00E4ven m\u00E5nga kurser som Operativssystem och s\u00E5 vidare, som jag \u00E4r helt ointresserad av. Visserligen finns det n\u00E5gra mindre intressanta kurser p\u00E5 interaktiva mastern ocks\u00E5, men uppl\u00E4gget med denna master och att jag d\u00E5 ist\u00E4llet cherry-picka:t de rena \"datalogikurser\" som jag varit intresserad av med mina valfria po\u00E4ng, k\u00E4nner jag har varit helt r\u00E4tt f\u00F6r mig.",
+				"a2": "Det k\u00E4nner jag absolut. IPROG-kursen (interaktionprogrammering f\u00F6r den dynamiska webben) var en r\u00E4tt intensiv kurs under kandidaten, men var \u00E4nd\u00E5 en av de b\u00E4sta kurser jag l\u00E4st. Det var den kurs som jag k\u00E4nner givit mig mest inf\u00F6r mastern och som fick mig att inse vad jag ville jobba med efter universitetstiden. Sen s\u00E5 \u00E4r alla programmeringskurser man haft v\u00E4rdefulla, oavsett spr\u00E5k. P\u00E5 liknande vis \u00E4r alla kurser med grupparbeten och projekt bra f\u00F6rberedelser. Till och med algebran var lite bra att ha med sig, detta \u00E4r dock verkligen inget man beh\u00F6ver oroa sig f\u00F6r om man inte var b\u00E4sta v\u00E4n med matten, och faktisk till\u00E4mpning av det \u00E4r bra mycket roligare \u00E4n bara ber\u00E4kningar f\u00F6r ber\u00E4kningars skull.",
+				"a3": "Det \u00E4r faktiskt en v\u00E4ldigt sv\u00E5r fr\u00E5ga. IPROG var ju faktiskt innan mastern, och den kanske inte var roligast heller, \u00E4ven om den var v\u00E4ldigt l\u00E4rorik. Men jag skulle nog p\u00E5st\u00E5 s\u00E5h\u00E4r:\r\n\r\nInformation Visualization - Slutprojektet \u00E4r sjukt kul och l\u00E4rorikt och det g\u00F6rs f\u00F6r ett f\u00F6retag. Sen s\u00E5 g\u00F6r man allm\u00E4nt r\u00E4tt h\u00E4ftiga grejer. Man l\u00E4gger ner mycket tid inte f\u00F6r att det kr\u00E4vs av krusen, utan f\u00F6r att det \u00E4r kul och att man vill g\u00F6ra ett bra jobb... Som det alltid borde vara!\r\n\r\nGraphics and Interaction - \u00C4ven om jag inte \u00E4r speciellt grafikintresserad s\u00E5 \u00E4r det sjukt kul att jobba med Unity och att till\u00E4mpa lite saker man l\u00E4rt sig tidigare ordentligt.  Jag och min grupp gjorde ett v\u00E4ldigt coolt slutprojekt, och precis som i f\u00F6reg\u00E5ende kurs s\u00E5 \u00E4r det upp till en sj\u00E4lv hur avancerade projekt man vill ge sig p\u00E5.\r\n\r\nAdvanced Projectcourse in Interactive Media Technology - \u00C4ven h\u00E4r gjorde vi ett v\u00E4ldigt intressant projekt som blev v\u00E4ldigt lyckat. Man \u00E4r v\u00E4ldigt fri att s\u00F6ka sig till ett projekt man sj\u00E4lv \u00E4r intresserad av.",
+				"a4": "Introduktionskursen f\u00F6r visualisation var relativt utmanande och kr\u00E4vande. Den \u00E4r intensiv med inl\u00E4mningar varje vecka, och helt pl\u00F6tsligt beh\u00F6ver man till\u00E4mpa den d\u00E4r gamla matten man med n\u00F6je hade f\u00F6rtr\u00E4ngt. Samtidigt s\u00E5 \u00E4r den helt klart g\u00F6rbar och det sv\u00E5raste \u00E4r oftast de h\u00F6ga kraven elever s\u00E4tter p\u00E5 sig sj\u00E4lva :)",
+				"a5": "G\u00F6tta ner dig i lite basic html och css om du inte har gjort det tidigare inf\u00F6r inriktningen, det underl\u00E4ttar och g\u00F6r det l\u00E4ttare att h\u00E4nga med i de lite \"sv\u00E5rare\" omr\u00E5dena.",
+				"a6": "Frontend- och webbutveckling i stort, just nu siktar jag p\u00E5 n\u00E5gon av de st\u00F6rre konsultbyr\u00E5erna. Sedan i framtiden \u00E4r det mycket m\u00F6jligt att jag glider in en mer fullstack-roll. Ytterligare n\u00E5gra \u00E5r fram i tiden, n\u00E4r man \u00E4r tr\u00F6tt p\u00E5 att knacka kod, s\u00E5 kanske det blir produkt\u00E4gare av n\u00E5got slag."
+			}
+		},
+		{
+			"name": "Linnéa",
+			"programme": "Interaktiv Medieteknik, visuella medier",
+			"img": "lelle.jpeg",
+			"answers": {
+				"a1": "Jag ville utforska mer i det jag f\u00E5tt l\u00E4ra mig under \u00E5r tre, men p\u00E5 ett friare och kreativare s\u00E4tt. Jag gick interaktiv medieteknik som inriktning i \u00E5r 3, s\u00E5 det var ett naturligt val att d\u00E5 v\u00E4lja en master med samma namn. Samt att jag fick en bra f\u00F6rst\u00E5else av inriktningen via \u00E4ldre studenter. Valet k\u00E4nns absolut r\u00E4tt f\u00F6r mig. Jag har f\u00E5tt m\u00F6jlighet att f\u00E5 l\u00F6sa problem och komma p\u00E5 nya l\u00F6sningar tillsammans med andra studenter d\u00E4r l\u00E4rarna mer \u00E4r acceleratorer \u00E4n kunskapsb\u00E4rare, vilket har f\u00E5tt mig att v\u00E4xa enormt! ",
+				"a2": "Man \u00E4r absolut redo att ta sig an mastern efter tre \u00E5r! Hade dock \u00F6nskat n\u00E5gon ytterligare kurs med lite tyngre JavaScript f\u00F6r att kunna bidra mer fr\u00E5n b\u00F6rjan i en del kurser i \u00E5r 4. Viktigaste kurserna f\u00F6rutom alla probleml\u00F6sarkurser (matten) har f\u00F6r mig varit programmeringen samt de kurser d\u00E4r man f\u00E5r nosa lite p\u00E5 vetenskapliga arbetss\u00E4tt. Vi g\u00E5r ju \u00E4nd\u00E5 p\u00E5 KTH, vetenskap is life.",
+				"a3": "Avancerad Grafik och Interaktion. Man stod helt p\u00E5 egna ben och kunde skapa typ precis vad som helst tillsammans i en egenkomponerad grupp. Kreativiteten fl\u00F6dade och det var v\u00E4ldigt roligt att se resultatet av n\u00E5got som man jobbat M\u00C5NGA timmar med.",
+				"a4": "Haha, Avancerad Grafik och Interaktion h\u00E4r ocks\u00E5.. Den \u00E4r 9hp men man l\u00E4gger nog ner samma tid som f\u00F6r minst 15hp. Detta var n\u00E5got jag var medveten om n\u00E4r jag valde att l\u00E4sa kursen. Jag t\u00E4nkte \"Jag kommer l\u00E4ra mig massa, ba g\u00F6re!\", och det var verkligen s\u00E5 v\u00E4rt! Att \"l\u00E4ra sig att l\u00E4ra sig sj\u00E4lv\" \u00E4r verkligen n\u00E5got man g\u00F6r i denna kurs.",
+				"a5": "Utnyttja tiden (det g\u00E5r sjukt fort), var inte r\u00E4dd f\u00F6r att testa n\u00E5got nytt och \u00E4r n\u00E5got tr\u00E5kigt, f\u00F6rs\u00F6k hitta n\u00E5got i projektet/kursen som du kan utveckla dina kunskaper inom och bli b\u00E4st p\u00E5! ",
+				"a6": "Jag vill jobba med att l\u00F6sa problem tillsammans med andra m\u00E4nniskor. Detta d\u00E5 man l\u00E4r sig s\u00E5 otroligt mycket av att arbeta med andra, och det \u00E4r n\u00E5got jag verkligen rekommenderar att dra nytta av genom hela livet! "
+			}
+		},
+		{
+			"name": "Martin",
+			"programme": "Interaktiv Medieteknik, fysisk interaktion",
+			"img": "martin.jpeg",
+			"answers": {
+				"a1": "",
+				"a2": "",
+				"a3": "",
+				"a4": "",
+				"a5": "",
+				"a6": ""
+			}
+		},
+		{
+			"name": "My",
+			"programme": "Interaktiv Medieteknik, visuella medier",
+			"img": "my.jpg",
+			"answers": {
+				"a1": "",
+				"a2": "",
+				"a3": "",
+				"a4": "",
+				"a5": "",
+				"a6": ""
+			}
+		}
+	],
+	"questions": {
+		"q1": "Varför valde du att läsa ditt mastersprogram? Känner du att du valt rätt?",
+		"q2": "Känner du att dina förkunskaper från kandidaten var tillräckliga? Vilka kurser från kandidaten var viktigast att ha med sig i mastern?",
+		"q3": "Vilken kurs har varit roligast i mastersprogrammet?",
+		"q4": "Vilken kurs har varit svårast/mest utmanande?",
+		"q5": "Har du några tips till dem som överväger att läsa samma mastersprogram?",
+		"q6": "Vad vill du jobba med efter examen?"
+	}
+}
