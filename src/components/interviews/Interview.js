@@ -13,7 +13,7 @@ const Interview = ({ name, programme, img, questions, answers }) => {
 					))}
 				</div>
 				<div className="interview__section interviewee">
-					<img id={img} src={require(`../../data/${img}`)} alt={name}></img>
+					<img id={img} src={require(`../../images/${img}`)} alt={name}></img>
 					<h5>{name}</h5>
 					<h6>{programme}</h6>
 				</div>

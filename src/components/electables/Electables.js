@@ -10,11 +10,6 @@ const Electables = ({ history }) => {
 				<div className="start-info">
 					<div className="start-info__section">
 						<a href="#blabla">
-							<Button special>XML:EN</Button>
-						</a>
-					</div>
-					<div className="start-info__section">
-						<a href="#blabla">
 							<Button special>iProg:EN</Button>
 						</a>
 					</div>

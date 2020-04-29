@@ -1,6 +1,6 @@
 import React from "react";
 import Interview from "../interviews/Interview";
-import data from "../../data/data.json";
+import data from "../../data/programmes.json";
 
 const persons = data.persons.filter(
 	(person) =>

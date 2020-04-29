@@ -9,7 +9,7 @@ html {
 
 .App {
 	background: #101010;
-	background-image: url(./coral-reef.jpg);
+	background-image: url(../images/coral-reef.jpg);
 	height: 100vh;
 	background-size: 100%;
 }
@@ -139,9 +139,9 @@ img {
 	flex-flow: column wrap;
 	align-items: center;
 	justify-content: center;
-	-webkit-animation: fadein 250ms ease-in;
-	-moz-animation: fadein 250ms ease-in;
-	animation: fadein 250ms ease-in;
+	-webkit-animation: fadein 200ms ease-in;
+	-moz-animation: fadein 200ms ease-in;
+	animation: fadein 200ms ease-in;
 }
 
 .start-info {

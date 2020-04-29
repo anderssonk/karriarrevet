@@ -1,5 +1,5 @@
 import React from "react";
-import "./button.css";
+import "../../css/button.css";
 
 const setType = (type) => {
 	switch (type) {
@@ -11,10 +11,12 @@ const setType = (type) => {
 			return "btn-tertiary";
 		default:
 			return "btn-primary";
+		case "topBtn":
+			return "btn-tertiary topBtn";
 	}
 };
 
-const Button = ({ type, children, onClick, special }) => {
+const Button = ({ type, children, onClick, special, id }) => {
 	const specialBtn = (
 		<button className="btn special" onClick={onClick}>
 			{children}
@@ -23,7 +25,11 @@ const Button = ({ type, children, onClick, special }) => {
 
 	if (special) return specialBtn;
 	return (
-		<button className={`btn ${setType(type)}`} onClick={onClick}>
+		<button
+			className={`btn ${setType(type)}`}
+			id={id ? id : ""}
+			onClick={onClick}
+		>
 			{children}
 		</button>
 	);

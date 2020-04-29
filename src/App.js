@@ -10,8 +10,9 @@ import Footer from "./components/Footer";
 import HomePage from "./components/HomePage";
 import Electables from "./components/electables/Electables";
 import Programmes from "./components/programmes/Programmes";
-import "./App.css";
-import "./typography.css";
+import Button from "./components/button/Button";
+import "./css/App.css";
+import "./css/typography.css";
 
 window.addEventListener("scroll", function () {
 	if (document.documentElement.scrollTop > 40) {
@@ -21,10 +22,22 @@ window.addEventListener("scroll", function () {
 	}
 });
 
+window.addEventListener("scroll", function () {
+	if (document.documentElement.scrollTop > 700) {
+		document.getElementById("topBtn").classList.add("topBtn-show");
+	} else {
+		document.getElementById("topBtn").classList.remove("topBtn-show");
+	}
+});
+
+const backToTop = () => {
+	console.log("bajs");
+};
+
 function App() {
 	return (
 		<div className="App">
-			<div className="overlay">
+			<div className="overlay" id="top">
 				<Router>
 					<Header></Header>
 					<Switch>
@@ -43,6 +56,11 @@ function App() {
 					<Footer></Footer>
 				</Router>
 			</div>
+			<a href="#top">
+				<Button type="topBtn" id="topBtn" onClick={backToTop()}>
+					^
+				</Button>
+			</a>
 		</div>
 	);
 }

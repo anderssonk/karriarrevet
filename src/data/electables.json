@@ -1,0 +1,114 @@
+{
+	"courses": [
+		{
+			"name": "DH2642 Interaktionsprogrammering och dynamiska webben",
+			"id": "DH2642",
+            "responses": [{
+                "person": "Johanna", 
+                "img": "img",
+                "answers": [{
+                    "a1": "I iProgg:en l\u00E4rde vi oss f\u00F6rv\u00E5nande nog att bygga interaktiva program! Detta inkluderade \u00E4ven att l\u00E4ra sig jobba med API:er, databaser och MVC arkitektur. F\u00F6rsta halvan av kursen var mest fokus p\u00E5 ren Javascript, och andra halvan har jag l\u00E4rt mig om framework:et React. Det har slunkit med en hel del andra l\u00E4rdomar i hemsidebyggandet, lite HTML och en hel del CSS knep. (Inser nu att jag l\u00E4rt mig S\u00C5 mycket denna kursen??)",
+                    "a2": "Jag gick p\\u00E5 n\\u00E5gra f\\u00E5 i b\\u00F6rjan men slutade ganska snabbt. Denna kursen var verkligen learning-by-doing.",
+                    "a3": "Det b\u00E4sta med iproggen var att man nu pl\u00F6tsligt kan bygga roligare och mer avancerade program. Det k\u00E4nns inte som att det va s\u00E5 l\u00E4ngesen man satt och \u00E5ngestsvettades tre veckor i Python bara f\u00F6r att tillslut kl\u00E4mma ut en halvkeff simulering av en kassaapparat. Nu kan man pl\u00F6tsligt f\u00F6rverkliga ganska avancerade id\u00E9er. I v\u00E5rt projekt byggde ett spel baserat p\u00E5 data fr\u00E5n Spotify, med egen databas och konfettiregn n\u00E4r man kommer med p\u00E5 high-score-listan. Inkluderade \u00E4ven en strumpa till muspekare som b\u00F6rjade brinna n\u00E4r man gick in i Rock-mode.\r\n\r\nDet sv\u00E5raste f\u00F6r mig va nog att komma in i det precis i b\u00F6rjan. Va v\u00E4ldigt f\u00F6rvirrad. "
+                },
+                {
+                    "person": "Albin", 
+                    "img": "img",
+                    "answers": [{
+                        "a1": "Grunderna f\u00F6r webbutveckling, HTML, CSS, js, react och massa mer.",
+                        "a2": "F\u00F6rel\u00E4sningar ibland, men mest fokus p\u00E5 att g\u00F6ra labbarna. Hands on, s\u00E5 att s\u00E4ga!",
+                        "a3": "Det b\u00E4sta var att man byggde vidare p\u00E5 sin kunskap med nya saker hela tiden. Det sv\u00E5raste var nog att byta fr\u00E5n pure js till react"
+                    }]
+            }]
+		},
+        {
+			"name": "KURSKOD Kursnamn",
+			"id": "KURSKOD",
+            "responses": [{
+                "person": "Namn", 
+                "img": "img",
+                "answers": [{
+                    "a1": "skriv personens svar h\u00E4r",
+                    "a2": "skriv personens svar h\u00E4r",
+                    "a3": "skriv personens svar h\u00E4r"
+                },
+                {
+                    "person": "Namn2", 
+                    "img": "img",
+                    "answers": [{
+                        "a1": "skriv andra personens svar h\u00E4r",
+                        "a2": "skriv andra personens svar h\u00E4r",
+                        "a3": "skriv andra personens svar h\u00E4r"
+                    }]
+            }]
+		},
+        {
+			"name": "KURSKOD Kursnamn",
+			"id": "KURSKOD",
+            "responses": [{
+                "person": "Namn", 
+                "img": "img",
+                "answers": [{
+                    "a1": "skriv personens svar h\u00E4r",
+                    "a2": "skriv personens svar h\u00E4r",
+                    "a3": "skriv personens svar h\u00E4r"
+                },
+                {
+                    "person": "Namn2", 
+                    "img": "img",
+                    "answers": [{
+                        "a1": "skriv andra personens svar h\u00E4r",
+                        "a2": "skriv andra personens svar h\u00E4r",
+                        "a3": "skriv andra personens svar h\u00E4r"
+                    }]
+            }]
+		},
+		{
+			"name": "KURSKOD Kursnamn",
+			"id": "KURSKOD",
+            "responses": [{
+                "person": "Namn", 
+                "img": "img",
+                "answers": [{
+                    "a1": "skriv personens svar h\u00E4r",
+                    "a2": "skriv personens svar h\u00E4r",
+                    "a3": "skriv personens svar h\u00E4r"
+                },
+                {
+                    "person": "Namn2", 
+                    "img": "img",
+                    "answers": [{
+                        "a1": "skriv andra personens svar h\u00E4r",
+                        "a2": "skriv andra personens svar h\u00E4r",
+                        "a3": "skriv andra personens svar h\u00E4r"
+                    }]
+            }]
+		},
+		{
+			"name": "KURSKOD Kursnamn",
+			"id": "KURSKOD",
+            "responses": [{
+                "person": "Namn", 
+                "img": "img",
+                "answers": [{
+                    "a1": "skriv personens svar h\u00E4r",
+                    "a2": "skriv personens svar h\u00E4r",
+                    "a3": "skriv personens svar h\u00E4r"
+                },
+                {
+                    "person": "Namn2", 
+                    "img": "img",
+                    "answers": [{
+                        "a1": "skriv andra personens svar h\u00E4r",
+                        "a2": "skriv andra personens svar h\u00E4r",
+                        "a3": "skriv andra personens svar h\u00E4r"
+                    }]
+            }]
+		}
+	],
+	"questions": {
+		"q1": "Vad lärde du dig i kursen?",
+		"q2": "Gick du på föreläsningar? Hur pluggade du?",
+		"q3": "Vad tyckte du var bäst respektive svårast med kursen?"
+	}
+}
