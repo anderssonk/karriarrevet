@@ -94,6 +94,7 @@ html {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: space-between;
+	margin: 0 0 3rem;
 }
 
 .interview__section {

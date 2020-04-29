@@ -1,10 +1,27 @@
 import React from "react";
+import Interview from "../interviews/Interview";
+import data from "../../data/data.json";
+
+const persons = data.persons.filter(
+	(person) => person.name === "Felix" || person.name === "Emma"
+);
+
+const questions = data.questions;
 
 const Datalogi = () => {
 	return (
 		<>
 			<div className="content-container" id="datalogi">
 				<h3>Datalogi</h3>
+				{persons.map((person) => (
+					<Interview
+						name={person.name}
+						programme={person.programme}
+						img={person.img}
+						questions={Object.values(questions)}
+						answers={Object.values(person.answers)}
+					/>
+				))}
 			</div>
 		</>
 	);

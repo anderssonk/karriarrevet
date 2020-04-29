@@ -6,7 +6,6 @@ const HomePage = ({ history }) => {
 	return (
 		<div className="container reef">
 			<div className="start-container">
-				{/* <img className="App-logo" src={logo} alt="logo" /> */}
 				<h1>Digitala Karriärrevet</h1>
 				<div className="start-info">
 					<div className="start-info__section">

@@ -10,7 +10,6 @@ const Header = () => {
 			</Link>
 			<div className="nav-bar">
 				<Button type="tertiary">om karriärrevet</Button>
-				<Button type="tertiary">kontakt</Button>
 			</div>
 		</div>
 	);
