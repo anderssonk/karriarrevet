@@ -17,7 +17,7 @@ html {
 	justify-content: space-between;
 	align-items: flex-end;
 	color: white;
-	width: 100vw;
+	width: 90vw;
 	padding: 0 5vw 0 5vw;
 	transition: height 0.2s ease-in-out;
 }
