@@ -3,7 +3,8 @@ import Interview from "../interviews/Interview";
 import data from "../../data/data.json";
 
 const persons = data.persons.filter(
-	(person) => person.name === "Felix" || person.name === "Emma"
+	(person) =>
+		person.name === "Felix" || person.name === "Emma" || person.name === "My"
 );
 
 const questions = data.questions;
@@ -15,6 +16,7 @@ const Datalogi = () => {
 				<h3>Datalogi</h3>
 				{persons.map((person) => (
 					<Interview
+						key={person.name}
 						name={person.name}
 						programme={person.programme}
 						img={person.img}

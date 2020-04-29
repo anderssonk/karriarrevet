@@ -6,10 +6,10 @@ const Interview = ({ name, programme, img, questions, answers }) => {
 			<div className="interview">
 				<div className="interview__section q-and-a">
 					{questions.map((question, index) => (
-						<p>
+						<span>
 							<b>{question}</b>
-							<p>{answers[index]} </p>
-						</p>
+							<p>{answers[index]}</p>
+						</span>
 					))}
 				</div>
 				<div className="interview__section interviewee">

@@ -13,6 +13,7 @@ const Maskininlarning = () => {
 				<h3>Maskininlärning</h3>
 				{persons.map((person) => (
 					<Interview
+						key={person.name}
 						name={person.name}
 						programme={person.programme}
 						img={person.img}

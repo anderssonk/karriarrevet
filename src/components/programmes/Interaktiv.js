@@ -7,8 +7,7 @@ const persons = data.persons.filter(
 		person.name === "Fanny" ||
 		person.name === "Filip" ||
 		person.name === "Linnéa" ||
-		person.name === "Martin" ||
-		person.name === "My"
+		person.name === "Martin"
 );
 
 const questions = data.questions;
@@ -19,6 +18,7 @@ const Interaktiv = () => {
 			<h3>Interaktiv Medieteknik</h3>
 			{persons.map((person) => (
 				<Interview
+					key={person.name}
 					name={person.name}
 					programme={person.programme}
 					img={person.img}
