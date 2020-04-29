@@ -2,6 +2,11 @@ html {
 	scroll-behavior: smooth;
 	background: #101010;
 }
+
+.transition {
+	opacity: 0;
+}
+
 .App {
 	background: #101010;
 	background-image: url(./coral-reef.jpg);
@@ -13,6 +18,7 @@ html {
 	background: rgba(0, 0, 0, 0.5);
 	height: 100vh;
 	background-size: 100%;
+	/* transition: background-color 300ms linear; */
 }
 
 .App-header {
@@ -117,6 +123,15 @@ img {
 	width: inherit;
 }
 
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
 .start-container {
 	width: 100vw;
 	min-height: 100vh;
@@ -124,6 +139,9 @@ img {
 	flex-flow: column wrap;
 	align-items: center;
 	justify-content: center;
+	-webkit-animation: fadein 250ms ease-in;
+	-moz-animation: fadein 250ms ease-in;
+	animation: fadein 250ms ease-in;
 }
 
 .start-info {
@@ -142,33 +160,6 @@ img {
 
 .App-link {
 	color: #61dafb;
-}
-
-.scroll-btn {
-	position: absolute;
-	top: 90vh;
-	cursor: pointer;
-}
-
-.btn-icon {
-	object-fit: contain;
-}
-
-.scroll-btn.btn-icon :hover {
-	animation: moveup 1s;
-	animation-iteration-count: infinite;
-}
-
-@keyframes moveup {
-	0% {
-		transform: translateY(0px);
-	}
-	70% {
-		transform: translateY(-10px);
-	}
-	100% {
-		transform: translateY(0px);
-	}
 }
 
 .App-container-item {

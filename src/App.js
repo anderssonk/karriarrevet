@@ -12,7 +12,6 @@ import Electables from "./components/electables/Electables";
 import Programmes from "./components/programmes/Programmes";
 import "./App.css";
 import "./typography.css";
-import "./transitions.css";
 
 window.addEventListener("scroll", function () {
 	if (document.documentElement.scrollTop > 40) {
