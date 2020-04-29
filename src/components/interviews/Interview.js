@@ -1,5 +1,4 @@
 import React from "react";
-import pic from "../../data/filip.png";
 
 const Interview = ({ name, programme, img, questions, answers }) => {
 	return (
@@ -14,7 +13,7 @@ const Interview = ({ name, programme, img, questions, answers }) => {
 					))}
 				</div>
 				<div className="interview__section interviewee">
-					<img id={pic} src={require(`../../data/${img}`)} alt={pic}></img>
+					<img id={img} src={require(`../../data/${img}`)} alt={name}></img>
 					<h5>{name}</h5>
 					<h6>{programme}</h6>
 				</div>

@@ -4,15 +4,19 @@ import data from "../../data/data.json";
 
 const persons = data.persons.filter(
 	(person) =>
-		person.name === "Filip" || person.name === "Linnéa" || person.name === "My"
+		person.name === "Fanny" ||
+		person.name === "Filip" ||
+		person.name === "Linnéa" ||
+		person.name === "Martin" ||
+		person.name === "My"
 );
 
 const questions = data.questions;
 
-const Interkativ = () => {
+const Interaktiv = () => {
 	return (
 		<div className="content-container" id="interaktiv-medieteknik">
-			<h3>Interkativ Medieteknik</h3>
+			<h3>Interaktiv Medieteknik</h3>
 			{persons.map((person) => (
 				<Interview
 					name={person.name}
@@ -26,4 +30,4 @@ const Interkativ = () => {
 	);
 };
 
-export default Interkativ;
+export default Interaktiv;

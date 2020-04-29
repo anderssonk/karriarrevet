@@ -1,7 +1,8 @@
 import React from "react";
 import Button from "../button/Button";
 import Datalogi from "./Datalogi";
-import Interkativ from "./Interkativ";
+import Interaktiv from "./Interaktiv";
+import Maskininlarning from "./Maskininlarning";
 
 const Programmes = ({ history }) => {
 	return (
@@ -27,7 +28,8 @@ const Programmes = ({ history }) => {
 				</div>
 			</div>
 			<Datalogi></Datalogi>
-			<Interkativ></Interkativ>
+			<Interaktiv></Interaktiv>
+			<Maskininlarning></Maskininlarning>
 		</div>
 	);
 };
