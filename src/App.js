@@ -6,11 +6,13 @@ import {
 	Route,
 } from "react-router-dom";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import HomePage from "./components/HomePage";
 import Electables from "./components/electables/Electables";
 import Programmes from "./components/programmes/Programmes";
 import "./App.css";
 import "./typography.css";
+import "./transitions.css";
 
 window.addEventListener("scroll", function () {
 	if (document.documentElement.scrollTop > 40) {
@@ -23,23 +25,25 @@ window.addEventListener("scroll", function () {
 function App() {
 	return (
 		<div className="App">
-			<Router>
-				<Header></Header>
-				<Switch>
-					<Redirect exact from="/" to="/home" />
-					<Route path="/home" render={(props) => <HomePage {...props} />} />
+			<div className="overlay">
+				<Router>
+					<Header></Header>
+					<Switch>
+						<Redirect exact from="/" to="/home" />
+						<Route path="/home" render={(props) => <HomePage {...props} />} />
 
-					<Route
-						path="/electables/"
-						render={(props) => <Electables {...props} />}
-					/>
-					<Route
-						path="/programmes/"
-						render={(props) => <Programmes {...props} />}
-					/>
-				</Switch>
-			</Router>
-			<div></div>
+						<Route
+							path="/electables/"
+							render={(props) => <Electables {...props} />}
+						/>
+						<Route
+							path="/programmes/"
+							render={(props) => <Programmes {...props} />}
+						/>
+					</Switch>
+					<Footer></Footer>
+				</Router>
+			</div>
 		</div>
 	);
 }

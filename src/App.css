@@ -4,8 +4,15 @@ html {
 }
 .App {
 	background: #101010;
-	/* background-image: url(./coral-reef.jpg);
-	background-size: 100%; */
+	background-image: url(./coral-reef.jpg);
+	height: 100vh;
+	background-size: 100%;
+}
+
+.overlay {
+	background: rgba(0, 0, 0, 0.5);
+	height: 100vh;
+	background-size: 100%;
 }
 
 .App-header {
@@ -36,26 +43,24 @@ html {
 	padding: 0 0.5rem 0 0.5rem;
 }
 
-/* .overlay {
-	background-color: rgba(0, 0, 0, 0.4);
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	position: relative;
-	z-index: 1;
-} */
-
 .App-footer {
-	height: 10vh;
+	height: 1.2rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	font-size: calc(1px + 2vmin);
+	font-size: calc(5px + 1vmin);
 	background: #101010;
-	color: #c4c4c4;
+	color: #303030;
 	padding: 10px;
+}
+
+.App-footer a {
+	color: #303030;
+}
+
+.App-footer a:hover {
+	color: #404040;
 }
 
 .App-logo {
@@ -76,15 +81,11 @@ html {
 	width: 40vw;
 }
 
-.black {
-	background-color: #000;
-}
-
 .content-container {
 	display: flex;
 	flex-flow: column wrap;
 	margin: auto;
-	margin-bottom: 10vh;
+	margin: 5vh auto 5vh;
 	width: 80vw;
 	flex: 1;
 }
