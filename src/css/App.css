@@ -57,16 +57,16 @@ html {
 	justify-content: center;
 	font-size: calc(5px + 1vmin);
 	background: #101010;
-	color: #303030;
+	color: #404040;
 	padding: 10px;
 }
 
 .App-footer a {
-	color: #303030;
+	color: #404040;
 }
 
 .App-footer a:hover {
-	color: #404040;
+	color: #606060;
 }
 
 .App-logo {
