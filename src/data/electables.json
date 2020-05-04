@@ -22,44 +22,44 @@
             }]
 		},
         {
-			"name": "KURSKOD Kursnamn",
-			"id": "KURSKOD",
+			"name": "SF1662 Diskret matematik",
+			"id": "SF1662",
             "responses": [{
-                "person": "Namn", 
+                "person": "Martin",
                 "img": "img",
                 "answers": [{
-                    "a1": "skriv personens svar h\u00E4r",
-                    "a2": "skriv personens svar h\u00E4r",
-                    "a3": "skriv personens svar h\u00E4r"
+                    "a1": "I disk-matten l\\u00E4r man sig r\\u00E4kna med heltal, m\\u00E4ngder, kombinatorik och lite annat.",
+                    "a2": "Jag har g\\u00E5tt p\\u00E5 en del f\\u00F6rel\\u00E4sningar i b\\u00E5da kurserna (DD2352 och SF1662), men mest i disk-matten d\\u00E5 det k\\u00E4nns som att de ger mest. I disk-matten hade/har vi 5 kontrollskrivningar som jag pluggat till.",
+                    "a3": "Det sv\\u00E5raste anar jag ligger bakom h\\u00F6rnet i disk-matten, men hittills tycker jag att kombinatoriken varit sv\\u00E5rast."
                 },
                 {
-                    "person": "Namn2", 
+                    "person": "Rasmus",
                     "img": "img",
                     "answers": [{
-                        "a1": "skriv andra personens svar h\u00E4r",
-                        "a2": "skriv andra personens svar h\u00E4r",
-                        "a3": "skriv andra personens svar h\u00E4r"
+                        "a1": "I denna mattekurs har vi f\\u00E5tt l\\u00E4ra oss att r\\u00E4kna med heltal p\\u00E5 m\\u00E5nga olika s\\u00E4tt. Till skillnad fr\\u00E5n envarren s\\u00E5 r\\u00E4knar vi bara med heltal. P\\u00E5 ett s\\u00E4tt blir allt mer konkret kan jag tycka, men det \\u00F6ppnar ocks\\u00E5 upp f\\u00F6r m\\u00E5nga olika koncept som snabbt blir komplicerade. Vi l\\u00E4ser kursen eftersom att denna typ av matematik ofta behandlas inom datalogins v\\u00E4rld.",
+                        "a2": "I denna kurs har jag valt att g\\u00E5 p\\u00E5 alla fysiska f\\u00F6rel\\u00E4sningar. N\\u00E4r coronakaoset b\\u00F6rjade s\\u00E5 har det funnits Zoomf\\u00F6rel\\u00E4sningar, dessa har jag d\\u00E4remot inte g\\u00E5tt p\\u00E5 d\\u00E5 jag inte funnit motivation.  Normalt s\\u00E4tt i denna kurs s\\u00E5 \\u00E4r det en bra id\\u00E9 att plugga inf\\u00F6r alla kontrollskrivningarna, n\\u00E5got jag gjorde till den f\\u00F6rsta kontrollskrivningen. Till den andra kontrollskrivningen hann jag inte plugga n\\u00E5got s\\u00E5 den skippade jag. Den tredje kontrollskrivningen st\\u00E4lldes in pga corona. Efter det har jag haft v\\u00E4ldigt sv\\u00E5rt att hitta motivation att plugga i kursen. Men f\\u00F6rhoppningsvis kommer jag hitta motivation innan tentaperioden i b\\u00F6rjar!",
+                        "a3": "F\\u00F6rel\\u00E4sningarna skulle jag absolut s\\u00E4ga \\u00E4r det b\\u00E4sta med denna kurs. F\\u00F6rel\\u00E4saren \\u00E4r v\\u00E4ldigt ung, s\\u00E5 det k\\u00E4nns som att han har en f\\u00F6rst\\u00E5else f\\u00F6r att vi inte kan allt redan. Vissa f\\u00F6rel\\u00E4sare har en tendens att prata med oss studenter p\\u00E5 sin egen niv\\u00E5 i form av terminologi och allm\\u00E4nbildning inom respektive omr\\u00E5de. Det f\\u00F6rel\\u00E4saren i diskmatte d\\u00E4remot g\\u00F6r \\u00E4r att se till att alla \\u00E4r med. Jag kan tyv\\u00E4rr inte s\\u00E4ga n\\u00E5got om hur f\\u00F6rel\\u00E4sningarna p\\u00E5 Zoom har varit eftersom jag valt att inte kolla p\\u00E5 dessa.  Det sv\\u00E5raste med kursen kommer nog att bli tentan. Den har fortfarande inte varit \\u00E4nnu, men jag misst\\u00E4nker att det kommer bli en rej\\u00E4l uppf\\u00F6rsbacke nu n\\u00E4r vi inte har n\\u00E5gra kontrollskrivningar att f\\u00E5 hj\\u00E4lp av!"
                     }]
             }]
 		},
         {
-			"name": "KURSKOD Kursnamn",
-			"id": "KURSKOD",
+			"name": "DD2352 Algoritmer och komplexitet",
+			"id": "DD2352",
             "responses": [{
-                "person": "Namn", 
+                "person": "Martin",
                 "img": "img",
                 "answers": [{
-                    "a1": "skriv personens svar h\u00E4r",
-                    "a2": "skriv personens svar h\u00E4r",
-                    "a3": "skriv personens svar h\u00E4r"
+                    "a1": "I Algoritmer och komplexitet l\\u00E4r man sig om... ja algoritmer och komplexitet, vilket \\u00E4r typ hur sv\\u00E5ra problem \\u00E4r att l\\u00F6sa.",
+                    "a2": "Jag har g\\u00E5tt p\\u00E5 en del f\\u00F6rel\\u00E4sningar i b\\u00E5da kurserna (SF1662 och DD2352). I AlgoKomp har jag gjort labbarna och m\\u00E4starproven, men inget ut\\u00F6ver det.",
+                    "a3": " I AlgoKomp \\u00E4r det utan tvekan m\\u00E4starprovet, som jag anser \\u00E4r den sv\\u00E5raste uppgiften jag f\\u00E5tt sen jag b\\u00F6rjat p\\u00E5 KTH."
                 },
                 {
-                    "person": "Namn2", 
+                    "person": "Rasmus",
                     "img": "img",
                     "answers": [{
-                        "a1": "skriv andra personens svar h\u00E4r",
-                        "a2": "skriv andra personens svar h\u00E4r",
-                        "a3": "skriv andra personens svar h\u00E4r"
+                        "a1": "I denna kurs, som str\\u00E4cker sig \\u00F6ver period 3 och 4, f\\u00E5r vi l\\u00E4ra oss om de vanligaste algoritmerna som anv\\u00E4nds inom datalogins v\\u00E4rld. Vi f\\u00E5r \\u00E4ven l\\u00E4ra oss att analysera dessa, varf\\u00F6r kursen ocks\\u00E5 best\\u00E5r av ordet \\\"komplexitet\\\". En del algoritmer som vi l\\u00E4r oss nu gick vi igenom i kursen DD1320 Till\\u00E4mpad datalogi, men nu i DD2352 Algoritmer och komplexitet f\\u00E5r vi l\\u00E4ra oss dessa algoritmer p\\u00E5 djupet. Eftersom att jag inte g\\u00E5r p\\u00E5 f\\u00F6rel\\u00E4sningarna i denna kurs har jag verkligen f\\u00E5tt l\\u00E4ra mig att leta upp information p\\u00E5 egen hand",
+                        "a2": "I denna kurs har jag helt valt att inte n\\u00E4rvara p\\u00E5 f\\u00F6rel\\u00E4sningarna. Detta d\\u00E5 jag tyv\\u00E4rr anser att f\\u00F6rel\\u00E4saren inte riktigt h\\u00E5ller informationen p\\u00E5 v\\u00E5r niv\\u00E5, utan hoppar \\u00F6ver de \\\"enkla\\\" sakerna f\\u00F6r att han antar att vi kan dem. Men f\\u00F6rel\\u00E4saren \\u00E4r ny f\\u00F6r i \\u00E5r, s\\u00E5 jag antar att det kommer bli b\\u00E4ttre med tiden!  I denna kurs har mitt pluggande varierat n\\u00E5got enormt. N\\u00E4r vi inte har labb eller m\\u00E4starprov har jag n\\u00E4stan inte pluggat n\\u00E5gonting, men n\\u00E4r en labb eller ett m\\u00E4starprov \\u00E4r aktuellt pluggar jag n\\u00E4stan dygnet runt. Jag skulle verkligen inte s\\u00E4ga att det \\u00E4r en h\\u00E5llbar strategi, men eftersom att vi inte har n\\u00E5gra kontrollskrivningar eller regelbundna labbar s\\u00E5 \\u00E4r det v\\u00E4ldigt l\\u00E4tt att prokrastinera.",
+                        "a3": "Det b\\u00E4sta med kursen \\u00E4r att man verkligen tvingas f\\u00F6rst\\u00E5 kursinneh\\u00E5llet p\\u00E5 djupet. Man f\\u00E5r inte g\\u00F6ra m\\u00E4starproven tillsammans med n\\u00E5gon annan, inte ens diskutera inneh\\u00E5llet, vilket g\\u00F6r att man f\\u00E5r en v\\u00E4ldigt god f\\u00F6rst\\u00E5else f\\u00F6r det vi ska examineras p\\u00E5.  Samtidigt \\u00E4r verkligen m\\u00E4starproven n\\u00E5got som \\u00E4r sjukt sv\\u00E5rt och tar ofantligt mycket tid. Min n\\u00E4rvaro p\\u00E5 KTH har nog aldrig varit s\\u00E5 intensiv som den var under m\\u00E4starprovsveckorna. Samtidigt l\\u00E4rde man sig j\\u00E4ttemycket om de algoritmer som behandlades under m\\u00E4starprovet!"
                     }]
             }]
 		},
