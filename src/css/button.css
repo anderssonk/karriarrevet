@@ -58,6 +58,21 @@
 	text-align: center;
 }
 
+@media screen and (max-width: 850px) {
+	.special {
+		width: 90vw;
+	}
+
+	.topBtn {
+		background-color: rgba(0, 0, 0, 0.3);
+		padding: 1rem;
+	}
+
+	.closeBtn {
+		font-size: 3rem !important;
+	}
+}
+
 .special:hover {
 	background: #eee;
 	color: #222222;
@@ -89,4 +104,9 @@
 .topBtn:hover {
 	-webkit-animation: bounce 1s infinite;
 	animation: bounce 1s infinite;
+}
+
+.closeBtn {
+	margin-left: 47vw;
+	font-size: 2.5rem;
 }

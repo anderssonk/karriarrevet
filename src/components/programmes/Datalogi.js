@@ -22,6 +22,7 @@ const Datalogi = () => {
 						img={person.img}
 						questions={Object.values(questions)}
 						answers={Object.values(person.answers)}
+						bonus={person.bonus}
 					/>
 				))}
 			</div>

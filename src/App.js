@@ -36,7 +36,6 @@ function App() {
 		<div className="App">
 			<div className="overlay" id="top">
 				<Router>
-					<Route path="/about" render={(props) => <About {...props} />} />
 					<Header></Header>
 					<Switch>
 						<Redirect exact from="/" to="/home" />
@@ -50,7 +49,9 @@ function App() {
 							path="/programmes"
 							render={(props) => <Programmes {...props} />}
 						/>
+						<Route path="/about" render={(props) => <About {...props} />} />
 					</Switch>
+
 					<Footer></Footer>
 				</Router>
 			</div>

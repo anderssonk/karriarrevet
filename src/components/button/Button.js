@@ -9,10 +9,12 @@ const setType = (type) => {
 			return "btn-secondary";
 		case "tertiary":
 			return "btn-tertiary";
-		default:
-			return "btn-primary";
 		case "topBtn":
 			return "btn-tertiary topBtn";
+		case "closeBtn":
+			return "btn-tertiary closeBtn";
+		default:
+			return "btn-primary";
 	}
 };
 
