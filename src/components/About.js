@@ -33,7 +33,7 @@ const About = ({ history }) => {
 						kurs eller ett masterprogram.{" "}
 					</p>
 					<p>Scrolla på och njut!</p>
-					<p className="signature">// Vi i NLG</p>
+					<p className="signature">{`// Vi i NLG`}</p>
 				</div>
 			</div>
 		</div>

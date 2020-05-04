@@ -1,7 +1,6 @@
 import React from "react";
 
 const Response = ({ name, img, questions, answers }) => {
-	console.log(name);
 	return (
 		<div className="interview">
 			<div className="interview__section q-and-a">

@@ -10,7 +10,9 @@ const Footer = () => {
 				</a>{" "}
 				and NLG |{" "}
 				<a href="http://www.medieteknik.com/">Sektionen för Medieteknik</a>,{" "}
-				<a href="https://www.kth.se/">KTH</a>
+				<a href="https://www.kth.se/">KTH</a>. Background photo by{" "}
+				<a href="https://unsplash.com/@photohunter">Jimmy Chang</a> on{" "}
+				<a href="https://unsplash.com/">Unsplash</a>.
 			</span>
 		</div>
 	);
