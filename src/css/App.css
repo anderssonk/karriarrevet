@@ -126,7 +126,6 @@ html {
 	.content-container,
 	.interview {
 		width: 100vw !important;
-		margin: 0;
 	}
 
 	.interview {
@@ -176,7 +175,6 @@ html {
 
 .q-and-a {
 	flex: 1;
-	min-width: 350px;
 	background: #eee;
 	margin: 0 1rem 0 0;
 	padding: 0.5rem;
