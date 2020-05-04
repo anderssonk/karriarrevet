@@ -184,3 +184,8 @@ img {
 		width: 100vw;
 	}
 }
+
+.about {
+	background: #101010;
+	z-index: 1000;
+}

@@ -5,6 +5,7 @@ import {
 	Redirect,
 	Route,
 } from "react-router-dom";
+import About from "./components/About";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import HomePage from "./components/HomePage";
@@ -30,26 +31,23 @@ window.addEventListener("scroll", function () {
 	}
 });
 
-const backToTop = () => {
-	console.log("bajs");
-};
-
 function App() {
 	return (
 		<div className="App">
 			<div className="overlay" id="top">
 				<Router>
+					<Route path="/about" render={(props) => <About {...props} />} />
 					<Header></Header>
 					<Switch>
 						<Redirect exact from="/" to="/home" />
 						<Route path="/home" render={(props) => <HomePage {...props} />} />
 
 						<Route
-							path="/electables/"
+							path="/electables"
 							render={(props) => <Electables {...props} />}
 						/>
 						<Route
-							path="/programmes/"
+							path="/programmes"
 							render={(props) => <Programmes {...props} />}
 						/>
 					</Switch>
@@ -57,7 +55,7 @@ function App() {
 				</Router>
 			</div>
 			<a href="#top">
-				<Button type="topBtn" id="topBtn" onClick={backToTop()}>
+				<Button type="topBtn" id="topBtn">
 					^
 				</Button>
 			</a>

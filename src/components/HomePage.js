@@ -1,5 +1,4 @@
 import React from "react";
-// import logo from "../digitala-karriarrevet.svg";
 import Button from "./button/Button";
 
 const HomePage = ({ history }) => {
