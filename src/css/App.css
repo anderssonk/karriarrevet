@@ -143,7 +143,8 @@ html {
 	}
 
 	.About-box {
-		width: 100vw !important;
+		width: 95vw !important;
+		padding: 2vw !important;
 	}
 }
 
