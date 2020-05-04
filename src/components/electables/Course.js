@@ -1,17 +1,22 @@
 import React from "react";
 import Response from "../interviews/Response";
-import data from "../../data/electables.json";
 
-const Course = ({ course }) => {
-	console.log("course", course);
+const Course = ({ course, questions }) => {
 	const { name, id, responses } = course;
+
 	return (
-		data && (
+		course &&
+		questions && (
 			<>
 				<div className="content-container" id={id}>
 					<h3>{name}</h3>
-					{responses.map((e) => (
-						<Response />
+					{responses.map((response) => (
+						<Response
+							name={response.name}
+							img={response.img}
+							questions={Object.values(questions)}
+							answers={Object.values(response.answers)}
+						/>
 					))}
 				</div>
 			</>

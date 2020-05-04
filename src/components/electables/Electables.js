@@ -1,9 +1,7 @@
 import React from "react";
 import Button from "../button/Button";
-import { courses } from "../../data/electables.json";
+import { courses, questions } from "../../data/electables.json";
 import Course from "./Course";
-
-console.log("COURSES", courses);
 
 const Electables = ({ history }) => {
 	return (
@@ -43,7 +41,7 @@ const Electables = ({ history }) => {
 				</div>
 			</div>
 			{courses.map((course) => (
-				<Course course={course} />
+				<Course key={course.name} course={course} questions={questions} />
 			))}
 		</div>
 	);
