@@ -1,5 +1,9 @@
 import React from "react";
 import Button from "../button/Button";
+import { courses } from "../../data/electables.json";
+import Course from "./Course";
+
+console.log("COURSES", courses);
 
 const Electables = ({ history }) => {
 	return (
@@ -9,34 +13,38 @@ const Electables = ({ history }) => {
 				<h2>Valbara kurser</h2>
 				<div className="start-info">
 					<div className="start-info__section">
-						<a href="#blabla">
+						<a href="#DH2642">
 							<Button special>iProg:EN</Button>
 						</a>
 					</div>
 					<div className="start-info__section">
-						<a href="#blabla">
+						<a href="#DM2518">
 							<Button special>Mobilutvecklingen</Button>
+						</a>
+					</div>
+					<div className="start-info__section">
+						<a href="#DD2352">
+							<Button special>Algkomp:en</Button>
 						</a>
 					</div>
 				</div>
 				<div className="start-info">
 					<div className="start-info__section">
-						<a href="#blabla">
+						<a href="#SF1662">
 							<Button special>Diskmatten</Button>
 						</a>
 					</div>
+
 					<div className="start-info__section">
-						<a href="#blabla">
-							<Button special>Algen</Button>
-						</a>
-					</div>
-					<div className="start-info__section">
-						<a href="#blabla">
+						<a href="#DD1385">
 							<Button special>prutten</Button>
 						</a>
 					</div>
 				</div>
 			</div>
+			{courses.map((course) => (
+				<Course course={course} />
+			))}
 		</div>
 	);
 };
