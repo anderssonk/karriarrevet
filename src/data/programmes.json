@@ -5,13 +5,17 @@
 			"programme": "Maskininlärning",
 			"img": "alexandra.jpeg",
 			"answers": {
-				"a1": "",
-				"a2": "",
-				"a3": "",
-				"a4": "",
-				"a5": "",
-				"a6": ""
-			}
+				"a1": "Jag har alltid varit intresserad av maskininl\u00E4rning och AI, s\u00E5 i b\u00F6rjan var planen att g\u00E5 Data med inriktning maskininl\u00E4rning. Men n\u00E4r det blev klart att man kunde v\u00E4lja att g\u00E5 maskininl\u00E4rningsmastern valde jag den ist\u00E4llet, mest f\u00F6r att man har mer frihet i vilka kurser man tar och det fungerade b\u00E4st f\u00F6r mig d\u00E5 jag har individuell studieplan. ",
+				"a2": "F\u00F6r mig har det berott mycket p\u00E5 kurserna. De kurser som redan \u00E4r utvalda och obligatoriska tycker jag att jag nog hade tillr\u00E4ckligt med f\u00F6rkunskaper f\u00F6r, men de som jag valde sj\u00E4lv var ibland lite f\u00F6r sv\u00E5ra och skulle nog passat b\u00E4ttre sista \u00E5ret ist\u00E4llet f\u00F6r att ha en b\u00E4ttre grund. ",
+				"a3": "Jag har inte tagit s\u00E5 m\u00E5nga d\u00E5 jag fortfarande \u00E4r p\u00E5 kandidaten men m\u00E5ste s\u00E4ga att introduktionskursen till AI var v\u00E4ldigt rolig, mest f\u00F6r att jag tycker \u00E4mnet \u00E4r s\u00E5 intressant. ",
+				"a4": "Jag valde Data Mining som en kurs och den var v\u00E4ldigt jobbig. K\u00E4nde mig v\u00E4ldigt f\u00F6rvirrad kring alla koncept och k\u00E4nde inte att jag hade tillr\u00E4ckligt med kunskaper inom \u00E4mnet, relevanta \u00E4mnen runt om data mining samt bara allm\u00E4n programmering till labbarna. Kan \u00E4ven ha varit att jag var helt ensam med folk jag aldrig ens sett f\u00F6rut s\u00E5 k\u00E4nde mig inte s\u00E5 s\u00E4ker i hur jag skulle kunna be om hj\u00E4lp fr\u00E5n folk. ",
+				"a5": "Det kommer ta lite klippa och klistra mer \u00E4mnen, d\u00E5 det \u00E4r v\u00E4ldigt fritt vad man ska ta f\u00F6r kurser s\u00E5 man kommer beh\u00F6va r\u00E4kna HP och liknande och man kanske inte kommer kunna ta alla kurser man skulle vilja f\u00F6r att 5 av dem ligger i samma period. F\u00F6rs\u00F6k \u00E4ven kolla de \u00E4mnen du v\u00E4ljer s\u00E5 att har n\u00E5gon koll p\u00E5 vad kursen faktiskt kommer inneh\u00E5lla och g\u00E5 ut p\u00E5, d\u00E5 du har s\u00E5 mycket valm\u00F6jligheter av kurser. G\u00F6r inte som mig och ta kurser baserat p\u00E5 namnet och s\u00E5 visar det sig att du inte kan n\u00E5gonting om \u00E4mnet s\u00E5 allting blir j\u00E4ttesv\u00E5rt. Och om det g\u00E5r, f\u00F6rs\u00F6k att ta kurser med n\u00E5gon du k\u00E4nner. Tror en av sakerna som gjorde vissa kurser sv\u00E5ra f\u00F6r mig var att jag tog den med folk jag inte k\u00E4nde s\u00E5 kunde inte ta hj\u00E4lp av folk p\u00E5 samma s\u00E4tt.",
+				"a6": "Har inte kommit s\u00E5 l\u00E5ngt i mitt liv. Skjuter upp det tills jag kanske hittat n\u00E5got bland de kurser jag best\u00E4mt mig f\u00F6r att ta som jag verkligen k\u00E4nner att det var nog det roligaste jag gjort. "
+			},
+			"bonus": [
+				"Lyfehax?",
+				"Man kan anv\u00E4nda en \u00E4ggskivare f\u00F6r att skiva upp champinjoner!"
+			]
 		},
 		{
 			"name": "Emma",
@@ -24,33 +28,45 @@
 				"a4": "Under f\u00F6rsta h\u00F6sten p\u00E5 mastern gick vi kursen Artificiell Intelligens, vilket introducerar en till v\u00E4rlden av Maskininl\u00E4rning och \u00E4r ett helt nytt t\u00E4nk. Det var extra sv\u00E5rt eftersom det \u00E4r relativ ny forskning som lutar sig mycket p\u00E5 teoretiska resonemang och matematisk notation - inte en personlig favorit. Men det \u00E4r en otrolig ego boost att k\u00E4nna att man har det avklarat efter\u00E5t.",
 				"a5": "Om du ens \u00F6verv\u00E4ger det s\u00E5 skulle jag s\u00E4ga k\u00F6r. Shoot for the stars and land on the moon. Man kommer l\u00E4ngre \u00E4n vad man hinner reflektera \u00F6ver.",
 				"a6": "Jag vill jobba som utvecklare, g\u00E4rna relaterat till forensisk datalogi eller n\u00E5got liknande inom datas\u00E4kerhet. Jag har alltid varit amat\u00F6r-intresserad av kriminologi och eftersom m\u00E5nga brott sker via n\u00E4tet eller med hj\u00E4lp av ny teknik \u00E4r det s\u00E5dana kompetenser som beh\u00F6vs. S\u00E5 shoutout till Polisen eller S\u00E4po, jag \u00E4r anst\u00E4llningsbar om ett \u00E5r (: "
-			}
+			},
+			"bonus": [
+				"Lyfehax?",
+				"Spara kik\u00E4rtsspad och g\u00F6r vegansk aioli av!"
+			]
 		},
 		{
 			"name": "Fanny",
 			"programme": "Interaktiv Medieteknik, ljud",
 			"img": "fanny.jpeg",
 			"answers": {
-				"a1": "",
-				"a2": "",
-				"a3": "",
-				"a4": "",
-				"a5": "",
-				"a6": ""
-			}
+				"a1": "Jag tyckte att alla kurser l\u00E4t v\u00E4ldigt intressanta och roliga! Ville \u00E4ven inrikta mig mot ljud, vilket var m\u00F6jligt i denna mastern :)",
+				"a2": "Ja det tycker jag absolut! Tycker framf\u00F6rallt att alla programmeringskurser hj\u00E4lpt en mycket nu i mastern. \u00C4ven om man inte \u00E4lskar att programmera s\u00E5 ger de kunskaperna en m\u00F6jligheten att faktiskt f\u00F6rverkliga en id\u00E9 man har, vilket \u00E4r viktigt n\u00E4r man l\u00E4ser mer projekt-baserade kurser (typ alla masterkurser)",
+				"a3": "L\u00E4ste kursen \"IT f\u00F6r funktionshindrade\" nu i P3 och tycker att den var b\u00E5de l\u00E4rorik och intressant! Accessibility ju ett omr\u00E5de som \u00E4r v\u00E4ldigt relevant n\u00E4r man jobbar med IT och n\u00E5got som jag kan tycka saknas i v\u00E5r utbildning, s\u00E5 den h\u00E4r kursen \u00E4r en m\u00F6jlighet att f\u00E5 en inblick i de verktyg och designprocesser som finns.",
+				"a4": "L\u00E4ser just \"Speech and Speaker Recognition\" och mycket av kursens principer och tekniker bygger p\u00E5 machine learning, n\u00E5tt som jag inte h\u00E5llit p\u00E5 med alls innan, s\u00E5 det \u00E4r ju en utmaning att ensam f\u00F6rs\u00F6ka f\u00F6rst\u00E5 hur det fungerar!",
+				"a5": "Kolla in vilka sp\u00E5r som finns och se om du hittar n\u00E5tt du tycker l\u00E5ter kul! Kolla \u00E4ven vilka villkorligt valfria kurser varje sp\u00E5r har, d\u00E5 man m\u00E5ste v\u00E4lja minst en s\u00E5n :)",
+				"a6": "Ooh sv\u00E5r fr\u00E5ga! Kanske webbutvecklare? Eller ljudprogrammerare! Har ingen aning faktiskt"
+			},
+			"bonus": [
+				"B\u00E4sta puben ut\u00F6ver META?",
+				"Pub som inte \u00E4r i Meta? Never heard of it"
+			]
 		},
 		{
 			"name": "Felix",
 			"programme": "Datalogi, teoretisk datalogi",
 			"img": "felix.jpeg",
 			"answers": {
-				"a1": "",
-				"a2": "",
-				"a3": "",
-				"a4": "",
-				"a5": "",
-				"a6": ""
-			}
+				"a1": "Jag tyckte att teoretisk datalogi var ett naturligt val eftersom jag alltid varit intresserad av algoritmer och verkligen gillade kurserna i algoritmer & komplexitet samt avancerade algoritmer p\u00E5 mastern.",
+				"a2": "Mina f\u00F6rkunskaper var tillr\u00E4ckliga, men det mesta av dem fick jag fr\u00E5n civilingenj\u00F6rsprogrammet i datateknik. De viktigaste kurserna att ha med sig \u00E4r algoritmer & komplexitet, diskret matematik och sannolikhetsteori. Generell f\u00E4rdighet inom matematik \u00E4r ocks\u00E5 nyttigt.",
+				"a3": "Komplexitetsteorin var roligast. Det \u00E4r en v\u00E4ldigt specialiserad kurs som i princip bara tas av de som g\u00E5r teoretiska sp\u00E5ret, vilket g\u00F6r att kursen \u00E4r r\u00E4tt liten och det finns st\u00F6rre m\u00F6jlighet att anpassa kursen till de \u00E4mnen deltagarna tycker \u00E4r intressanta. Dessutom ges kursen av Johan H\u00E5stad, en av v\u00E4rldens fr\u00E4msta experter inom \u00E4mnet, som jobbar h\u00E4r p\u00E5 KTH.",
+				"a4": "Kursen i grafteori som jag tog i h\u00F6stas var rolig, men v\u00E4ldigt utmanande. Jag hade lite f\u00F6r mycket att g\u00F6ra s\u00E5 jag gjorde tyv\u00E4rr ett avbrott p\u00E5 den. Generellt f\u00F6r mattekurser p\u00E5 avancerad niv\u00E5 kr\u00E4vs det v\u00E4ldigt mycket tid och att man sj\u00E4lv s\u00E4tter sig ner och l\u00F6ser problem samt f\u00F6rs\u00F6ker f\u00F6rst\u00E5 bevisen f\u00F6r att man ska h\u00E4nga med.",
+				"a5": "Se till att vara v\u00E4l f\u00F6rberedd, sp\u00E5ret \u00E4r v\u00E4ldigt mattetungt. L\u00E4s p\u00E5 om \u00E4mnet innan s\u00E5 att du kan komma med relevanta fr\u00E5gor och f\u00F6rs\u00F6ka styra kurserna mot det du tycker \u00E4r intressant inom \u00E4mnet.",
+				"a6": "Jag funderar p\u00E5 att doktorera eller eventuellt s\u00F6ka jobb p\u00E5 n\u00E5got intressant f\u00F6retag s\u00E5som Google d\u00E4r man f\u00E5r applicera algoritmkunskaper p\u00E5 riktigt."
+			},
+			"bonus": [
+				"B\u00E4sta pluggst\u00E4llet p\u00E5 campus?",
+				"META s\u00E5klart - alltid n\u00E5gon bekant man kan h\u00E4nga med + gratis kaffe!"
+			]
 		},
 		{
 			"name": "Filip",
@@ -63,7 +79,8 @@
 				"a4": "Introduktionskursen f\u00F6r visualisation var relativt utmanande och kr\u00E4vande. Den \u00E4r intensiv med inl\u00E4mningar varje vecka, och helt pl\u00F6tsligt beh\u00F6ver man till\u00E4mpa den d\u00E4r gamla matten man med n\u00F6je hade f\u00F6rtr\u00E4ngt. Samtidigt s\u00E5 \u00E4r den helt klart g\u00F6rbar och det sv\u00E5raste \u00E4r oftast de h\u00F6ga kraven elever s\u00E4tter p\u00E5 sig sj\u00E4lva :)",
 				"a5": "G\u00F6tta ner dig i lite basic html och css om du inte har gjort det tidigare inf\u00F6r inriktningen, det underl\u00E4ttar och g\u00F6r det l\u00E4ttare att h\u00E4nga med i de lite \"sv\u00E5rare\" omr\u00E5dena.",
 				"a6": "Frontend- och webbutveckling i stort, just nu siktar jag p\u00E5 n\u00E5gon av de st\u00F6rre konsultbyr\u00E5erna. Sedan i framtiden \u00E4r det mycket m\u00F6jligt att jag glider in en mer fullstack-roll. Ytterligare n\u00E5gra \u00E5r fram i tiden, n\u00E4r man \u00E4r tr\u00F6tt p\u00E5 att knacka kod, s\u00E5 kanske det blir produkt\u00E4gare av n\u00E5got slag."
-			}
+			},
+			"bonus": ["Lyfehax?", "\u00C4t gul sn\u00F6, det kan vara \u00F6l."]
 		},
 		{
 			"name": "Linnéa",
@@ -76,33 +93,42 @@
 				"a4": "Haha, Avancerad Grafik och Interaktion h\u00E4r ocks\u00E5.. Den \u00E4r 9hp men man l\u00E4gger nog ner samma tid som f\u00F6r minst 15hp. Detta var n\u00E5got jag var medveten om n\u00E4r jag valde att l\u00E4sa kursen. Jag t\u00E4nkte \"Jag kommer l\u00E4ra mig massa, ba g\u00F6re!\", och det var verkligen s\u00E5 v\u00E4rt! Att \"l\u00E4ra sig att l\u00E4ra sig sj\u00E4lv\" \u00E4r verkligen n\u00E5got man g\u00F6r i denna kurs.",
 				"a5": "Utnyttja tiden (det g\u00E5r sjukt fort), var inte r\u00E4dd f\u00F6r att testa n\u00E5got nytt och \u00E4r n\u00E5got tr\u00E5kigt, f\u00F6rs\u00F6k hitta n\u00E5got i projektet/kursen som du kan utveckla dina kunskaper inom och bli b\u00E4st p\u00E5! ",
 				"a6": "Jag vill jobba med att l\u00F6sa problem tillsammans med andra m\u00E4nniskor. Detta d\u00E5 man l\u00E4r sig s\u00E5 otroligt mycket av att arbeta med andra, och det \u00E4r n\u00E5got jag verkligen rekommenderar att dra nytta av genom hela livet! "
-			}
+			},
+			"bonus": [
+				"B\u00E4sta pluggst\u00E4llet på campus?",
+				"Hyllan, Nymble, 9-14 \uD83D\uDC4C\uD83C\uDFFB"
+			]
 		},
 		{
 			"name": "Martin",
 			"programme": "Interaktiv Medieteknik, fysisk interaktion",
 			"img": "martin.jpeg",
 			"answers": {
-				"a1": "",
-				"a2": "",
-				"a3": "",
-				"a4": "",
-				"a5": "",
-				"a6": ""
-			}
+				"a1": "Jag har alltid varit intresserad av design, projektledning och interaktiva verktyg. Den h\u00E4r mastern passade perfekt f\u00F6r mig och jag har absolut valt r\u00E4tt!",
+				"a2": "Mina f\u00F6rkunskaper har i princip inte gynnat mig alls under min master. Jag har l\u00E4rt mig helt nya kunskaper och \u00F6ven ifall de relaterar till tidigare kurser d\u00F6g informationen som gavs i masterkursen bra nog utan att kr\u00E4va tidigare kunskap. Om jag m\u00E5ste v\u00E4lja en kurs som varit nyttig s\u00E4ger jag Reflekterande Designprocess. Det \u00E4r den b\u00E4sta kursen som jag l\u00E4st och den gav mig en fantastisk grund f\u00F6r alla mina projektledningskurser som kommit sedan dess.",
+				"a3": "Design som Reflekterande Praktik. Det \u00E4r en desingkurs d\u00E4r man l\u00E4r sig om soma-design (att designa med kroppen i fokus). Vi fick g\u00F6ra yoga, g\u00E5 skogspromenader och prata om Sigmund Freud, tre saker som jag \u00E4lskar.",
+				"a4": "M\u00E4nsklig Perception. Den kr\u00E4vde massor av teknisk kunskap som f\u00F6rel\u00E4saren inte f\u00F6rmedlade och det var ett tungt projekt med m\u00E5nga deadlines som klaffade d\u00E5ligt med andra kurser",
+				"a5": "Man har stor valfrihet inom den h\u00E4r mastern, fr\u00E5ga g\u00E4rna \u00E4ldre studenter ifall du vill ha tips p\u00E5 roliga valfria kurser att l\u00E4sa!",
+				"a6": "Jag vill arbeta med projektledning, g\u00E4rna inom design eller mediaproduktion."
+			},
+			"bonus": [
+				"B\u00E4sta toan på campus?",
+				"Handikapptoaletten i D-huset. F\u00F6r alla dina behov som kr\u00E4ver mer utrymme \u00E4n en vanlig toalett. N\u00E4r du vill vara ost\u00F6rd men inte ensam (tm)"
+			]
 		},
 		{
 			"name": "My",
 			"programme": "Datalogi, kognitiva system",
 			"img": "my.jpg",
 			"answers": {
-				"a1": "",
-				"a2": "",
-				"a3": "",
-				"a4": "",
-				"a5": "",
-				"a6": ""
-			}
+				"a1": "Jag valde datalogi-mastern av flera anledningar! F\u00F6rst av allt har jag en k\u00E4rlek till programmering och allra helst programmerar jag back-end. Jag gillar att skapa  funktionalitet ist\u00E4llet f\u00F6r att kanske skapa n\u00E5got visuellt, vilket man g\u00F6r mer i interaktiva mastern! Sedan tittade jag mycket p\u00E5 kurserna n\u00E4r jag skulle v\u00E4lja master, och tyckte helt enkelt att kurserna i datalogi-mastern verkade mer intressanta och att de skulle passa mig b\u00E4ttre. Jag var lite r\u00E4dd i b\u00F6rjan att det skulle bli sv\u00E5rt, jobbigt och att jag inte skulle ha n\u00E5gon att labba med (de jag brukar h\u00E4nga med valde inte samma master). Det \u00E4r sv\u00E5rt, men \u00E4ven kul och l\u00E4rorikt. Att hitta labbpartners har g\u00E5tt mycket b\u00E4ttre \u00E4n jag trodde, det finns alltid n\u00E5gon annan som ocks\u00E5 letar efter n\u00E5gon. Jag k\u00E4nner verkligen att jag har gjort helt r\u00E4tt val f\u00F6r mig, \u00E4r supern\u00F6jd!",
+				"a2": "Ja! Men jag skulle ljuga om jag s\u00E4ger att h\u00F6sten (som \u00E4r fylld av obligatoriska kurser) inte var tuff, f\u00F6r det var den. Det var mycket nytt och mycket tungt, men det g\u00E5r att klara! Nu n\u00E4r jag l\u00E4ser mer sj\u00E4lvvalda kurser \u00E4r det mycket lugnare. De tre kurserna som man l\u00E4ser i datalogi-inriktningen i trean (Programutvecklingsteknik, Algoritmer och Komplexitet och Diskret Matematik) och Sannolikhet och Statistik \u00E4r de kurser som jag har f\u00E5tt mest anv\u00E4ndning av det senaste \u00E5ret. Nu p\u00E5 min inriktning har \u00E4ven Spektrala Transformer visat sig varit nyttig!",
+				"a3": "Sv\u00E5r fr\u00E5ga! Jag tror att jag tyckte om kursen Artificiell Intelligens mest som jag l\u00E4ste f\u00F6rsta perioden. Den best\u00E5r av en skrivuppgift, tv\u00E5 labbar och en hemuppgift (eller s\u00E5 kunde man g\u00F6ra ett projekt ist\u00E4llet hemuppgiften) och inneh\u00E5llsm\u00E4ssigt s\u00E5 f\u00E5r man ett smakprov p\u00E5 AI och vad det \u00E4r. Jag gillade verkligen f\u00F6rel\u00E4saren och \u00E4ven om labbarna var stundtals sv\u00E5ra s\u00E5 l\u00E4rde jag mig massor, vilket alltid \u00E4r kul! Det var den kursen som gjorde att jag valde sp\u00E5ret kognitiva system.",
+				"a4": "H\u00E4r hamnar nog Internets protokoll och principer och Datas\u00E4kerhet p\u00E5 delad f\u00F6rsta plats. B\u00E5da kursernas inneh\u00E5ll var nytt f\u00F6r mig och det var \u00E4ven v\u00E4ldigt m\u00E5nga moment i kurserna (jag kan tycka att de borde vara v\u00E4rda mer \u00E4n 6hp var...). ",
+				"a5": "Var redo att l\u00E4gga mycket tid p\u00E5 studierna f\u00F6rsta halv\u00E5ret, det kommer vara tufft men jag tycker verkligen att det har varit v\u00E4rt det! Jag har verkligen k\u00E4nt att jag l\u00E4rt mig massor det senaste \u00E5ret, vilket jag tycker \u00E4r v\u00E4ldigt givande.",
+				"a6": "Just nu \u00E4r jag v\u00E4ldigt nyfiken p\u00E5 AI! Jag skulle kunna t\u00E4nka mig att jobba i ett team som utvecklar n\u00E5gon sorts autonomt system, kanske en tal-assistent eller sj\u00E4lvk\u00F6rande bilar. Jag tror att det kommer vara en del av v\u00E5r vardag i framtiden (\u00E4nnu mer \u00E4n det \u00E4r nu) och hur coolt vore det inte om jag skulle kunna vara med och bidra till det! "
+			},
+			"bonus": ["B\u00E4sta kaffet p\u00E5 campus?", "Sleven <3"]
 		}
 	],
 	"questions": {
