@@ -1,13 +1,35 @@
-import React from "react";
+import React, { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import Button from "./button/Button";
 
 const About = ({ history }) => {
+	const box = document.getElementById("About-box");
+
+	let location = useLocation();
+
+	const goBack = (e) => {
+		if (
+			location.pathname === "/about" &&
+			!(box === e.target) &&
+			e.target === document.getElementById("About-page")
+		) {
+			history.goBack("click");
+		}
+	};
+
+	useEffect(() => {
+		window.addEventListener("click", goBack);
+		return () => {
+			window.removeEventListener("click", goBack);
+		};
+	}, []);
+
 	return (
-		<div className="About">
+		<div className="About" id="About-page">
 			<Button type="closeBtn" onClick={() => history.goBack()}>
 				&times;
 			</Button>
-			<div className="About-box">
+			<div className="About-box" id="About-box">
 				<div className="About-box__section">
 					<h4>Hej där, och välkommen till digitala karriärrevet!</h4>
 				</div>

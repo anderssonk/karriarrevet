@@ -49,19 +49,21 @@ html {
 }
 
 .App-footer {
-	height: 1.2rem;
+	height: 1.1rem;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	font-size: calc(5px + 1vmin);
 	background: #101010;
-	color: #404040;
+	color: #505050;
 	padding: 10px;
 }
 
 .App-footer a {
-	color: #404040;
+	font-weight: 700;
+	text-decoration: none;
+	color: #505050;
 }
 
 .App-footer a:hover {
