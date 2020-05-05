@@ -51,37 +51,21 @@ html {
 .App-footer {
 	height: 1.1rem;
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
 	justify-content: center;
 	font-size: calc(5px + 1vmin);
-	background: #101010;
-	color: #505050;
-	padding: 10px;
+	background-color: #101010;
+	padding: 10px 0;
+	color: #333;
 }
 
 .App-footer a {
-	font-weight: 700;
-	text-decoration: none;
-	color: #505050;
+	color: #333;
 }
 
 .App-footer a:hover {
-	color: #606060;
-}
-
-.App-logo {
-	height: 100%;
-	object-fit: contain;
-}
-
-.nlg-logo {
-	height: 100%;
-	object-fit: contain;
-}
-
-.start__nlg-logo {
-	height: 10vh;
+	color: #555;
 }
 
 @keyframes fadein {
@@ -219,6 +203,7 @@ img {
 }
 
 .About {
+	position: fixed;
 	height: 100vh;
 	width: 100vw;
 	z-index: 1000;
@@ -226,7 +211,7 @@ img {
 	flex-flow: column wrap;
 	align-items: center;
 	justify-content: center;
-	background-color: rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.7);
 	-webkit-animation: fadein 200ms ease-in;
 	-moz-animation: fadein 200ms ease-in;
 	animation: fadein 200ms ease-in;

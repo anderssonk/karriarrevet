@@ -15,21 +15,24 @@ import Button from "./components/button/Button";
 import "./css/App.css";
 import "./css/typography.css";
 
-window.addEventListener("scroll", function () {
+const hideHeader = () => {
 	if (document.documentElement.scrollTop > 40) {
 		document.getElementById("header").classList.add("nav-up");
 	} else {
 		document.getElementById("header").classList.remove("nav-up");
 	}
-});
+};
 
-window.addEventListener("scroll", function () {
+const showTopBtn = () => {
 	if (document.documentElement.scrollTop > 700) {
 		document.getElementById("topBtn").classList.add("topBtn-show");
 	} else {
 		document.getElementById("topBtn").classList.remove("topBtn-show");
 	}
-});
+};
+
+window.addEventListener("scroll", hideHeader);
+window.addEventListener("scroll", showTopBtn);
 
 function App() {
 	return (
@@ -38,6 +41,7 @@ function App() {
 				<Router>
 					<Header></Header>
 					<Switch>
+						<Route path="/about" render={(props) => <About {...props} />} />
 						<Redirect exact from="/" to="/home" />
 						<Route path="/home" render={(props) => <HomePage {...props} />} />
 
@@ -49,12 +53,10 @@ function App() {
 							path="/programmes"
 							render={(props) => <Programmes {...props} />}
 						/>
-						<Route path="/about" render={(props) => <About {...props} />} />
 					</Switch>
-
-					<Footer></Footer>
 				</Router>
 			</div>
+			<Footer></Footer>
 			<a href="#top">
 				<Button type="topBtn" id="topBtn">
 					^
