@@ -18,9 +18,12 @@ h6 {
 	h3 {
 		font-size: 1.7rem !important;
 	}
-	h5 {
-		font-size: 1.5rem !important;
+	h5,
+	h6 {
 		color: #101010 !important;
+	}
+	.h5 {
+		font-size: 1.5rem !important;
 	}
 }
 
