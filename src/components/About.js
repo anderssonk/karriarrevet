@@ -35,7 +35,7 @@ const About = ({ history }) => {
 				</div>
 				<div className="About-box__section">
 					<p>
-						TEST Karriärrevet är till för dig som vill veta mer om medietekniks
+						Karriärrevet är till för dig som vill veta mer om medietekniks
 						masterprogram och de valbara kurser som finns att välja mellan i
 						årskurs 3. Karriärrevet arrangeras av <b>NLG</b> och sker vanligtvis
 						i samband med en torsdagspub i META eller i en annan lokal på KTH.
