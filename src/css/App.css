@@ -109,6 +109,14 @@ html {
 		justify-content: center;
 	}
 
+	.App-header {
+		position: absolute !important;
+	}
+
+	.nav-up {
+		height: 10vh !important;
+	}
+
 	.container,
 	.content-container,
 	.interview {
