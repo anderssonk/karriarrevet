@@ -129,6 +129,23 @@
 				"a6": "Just nu \u00E4r jag v\u00E4ldigt nyfiken p\u00E5 AI! Jag skulle kunna t\u00E4nka mig att jobba i ett team som utvecklar n\u00E5gon sorts autonomt system, kanske en tal-assistent eller sj\u00E4lvk\u00F6rande bilar. Jag tror att det kommer vara en del av v\u00E5r vardag i framtiden (\u00E4nnu mer \u00E4n det \u00E4r nu) och hur coolt vore det inte om jag skulle kunna vara med och bidra till det! "
 			},
 			"bonus": ["B\u00E4sta kaffet p\u00E5 campus?", "Sleven <3"]
+		},
+		{
+			"name": "Karolin",
+			"programme": "ICT Innovation, Human Computer Interaction and Design",
+			"img": "karolin.png",
+			"answers": {
+				"a1": "Flera anledningar! Man f\u00E5r en minor inom entrepren\u00F6rskap och innovation, f\u00E5r umg\u00E5s med m\u00E4nniskor fr\u00E5n olika kulturer, m\u00F6jligheten att \u00E5ka utomlands som en integrerad del av utbildningen ist\u00E4llet f\u00F6r en utbytestermin, lite milj\u00F6ombyte fr\u00E5n Valhalla campuset (bara 2 kurser) och jag tyckte kurserna l\u00E4t roligare j\u00E4mf\u00F6rt med interaktiva mastern. Jag ville g\u00E5 mot mer UX och kreativa kurser och mindre programmering. D\u00E4rav k\u00E4ndes HCID-sp\u00E5ret l\u00E4mpligare \u00E4n fysisk interaktionsdesign p\u00E5 interaktiva mastern som jag f\u00F6rst funderade p\u00E5. Det k\u00E4ndes som jag skulle f\u00E5 mer utav min master \u00E4n bara kurser helt enkelt och med facit i hand s\u00E5 k\u00E4nner jag att jag valt r\u00E4tt!",
+				"a2": "Ja jag k\u00E4nner att mina f\u00F6rkunskaper var tillr\u00E4ckliga. Jag gick interaktiv medieteknik sp\u00E5ret - Viktigast var nog programmerings kurserna under \u00E5r 3 f\u00F6r att ha en grund f\u00F6rst\u00E5else inom programmering samt MDI men jag hade nog kunnat klara mig utan den ox\u00E5.",
+				"a3": "DH2400\tPhysical Interaction Design and Realization - f\u00F6r att den var i en v\u00E4ldigt kreativ milj\u00F6 och vi var som en egen liten men v\u00E4ldigt social klass som s\u00E5gs varje dag i Middla-labbet. Den \u00F6ppnade upp min bild om vad jag vill h\u00E5lla p\u00E5 med och jag fick mer f\u00F6rst\u00E5else f\u00F6r KTH's forskning och varf\u00F6r det kan vara roligare projekt j\u00E4mf\u00F6rt med arbetslivet. Innan kursen hade jag en bild om att jag bara vill h\u00E5lla p\u00E5 med UX inom web och app-utveckling och absolut inte fysiska saker haha... Var v\u00E4ldigt kul att designa f\u00F6r b\u00E4ttre h\u00E4lsa och r\u00F6relse genom Soma Design, det \u00E4r n\u00E5got jag vill forts\u00E4tta utforska.",
+				"a4": "Jag har valt mina kurser v\u00E4l s\u00E5 ingen kurs jag har l\u00E4st har varit s\u00E4rskilt sv\u00E5r men mest utmanande m\u00E5ste varit Physical Interaction Design and Realization, f\u00F6r att vi till\u00E4ts verkligen genomg\u00E5 design processen och tusentals iterationer vilket s\u00E4llan skett i mina tidigare kurser.  Ett tidskr\u00E4vande, ineffektivt, frustrerande projekt men vi valde ox\u00E5 att l\u00E4gga ner mycket tid f\u00F6r att vi tyckte det var roligt och att vi umgicks p\u00E5 ett personligt plan.",
+				"a5": "1. OBS! Prata med din studiev\u00E4gledare! Jag har haft en hel del \u00F6verlapp i kurser fr\u00E5n min bachelor, s\u00E5 f\u00F6r att kunna ta ut min civilingenj\u00F6r har jag haft mycket kontakt med studiev\u00E4gledaren och f\u00E5tt g\u00F6ra min egna studieplan. Har kr\u00E4vt en del jobb men S\u00C5 V\u00C4RT DET i och med att jag f\u00E5tt mycket st\u00F6rre valm\u00F6jligheter, \u00E4n de flesta andra, i val av kurser - extremt glad f\u00F6r detta!\r\n\r\n2. Kolla upp skillnaden mellan ICT Innovation och EIT digital masterschool! Om man s\u00F6ker i tid till eit kan man vara utomlands b\u00E5da \u00E5ren p\u00E5 mastern om man vill och s\u00E5 f\u00E5r man dubbla examen fr\u00E5n de universitet man studerat p\u00E5. \r\n\r\n3. Kolla upp om EIT fortfarande har en Kickoff - jag var i Paris med studenter fr\u00E5n alla partner-universiteten vilket var superkul!\r\n\r\n4. Sommarskola, vilket \u00E4r lite ovanligt, antingen i Stockholm eller utomlands om du \u00E4r eit student. Kan eventuellt f\u00F6rekomma i annan form under P1-P4 i framtiden.",
+				"a6": "Jag tror starkt p\u00E5 design som problem l\u00F6sning och vill jobba inom UX / UI / Fysisk interaktion / design / produkt utveckling / konvertering / liknande omr\u00E5den. "
+			},
+			"bonus": [
+				"Favoritserie?",
+				"Som jag kan komma p\u00E5 just nu - Euphoria!"
+			]
 		}
 	],
 	"questions": {

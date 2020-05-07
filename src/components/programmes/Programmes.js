@@ -3,6 +3,7 @@ import Button from "../button/Button";
 import Datalogi from "./Datalogi";
 import Interaktiv from "./Interaktiv";
 import Maskininlarning from "./Maskininlarning";
+import Ict from "./Ict";
 
 const Programmes = ({ history }) => {
 	return (
@@ -20,9 +21,16 @@ const Programmes = ({ history }) => {
 							<Button special>Interaktiv medieteknik</Button>
 						</a>
 					</div>
+				</div>
+				<div className="start-info">
 					<div className="start-info__section">
 						<a href="#maskininlarning">
 							<Button special>Maskininlärning</Button>
+						</a>
+					</div>
+					<div className="start-info__section">
+						<a href="#ict">
+							<Button special>ICT Innovation</Button>
 						</a>
 					</div>
 				</div>
@@ -30,6 +38,7 @@ const Programmes = ({ history }) => {
 			<Datalogi></Datalogi>
 			<Interaktiv></Interaktiv>
 			<Maskininlarning></Maskininlarning>
+			<Ict></Ict>
 		</div>
 	);
 };
