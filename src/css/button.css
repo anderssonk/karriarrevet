@@ -1,5 +1,5 @@
 .btn {
-	font-family: "Poppins";
+	font-family: 'Poppins';
 	font-size: 1rem;
 	cursor: pointer;
 	transition: 0.1s background-color linear, 0.1s color linear;
@@ -47,7 +47,7 @@
 
 .special {
 	border: 0.2rem solid #eee;
-	min-width: 24rem;
+	width: 24rem;
 	height: 5rem;
 	background: none;
 	color: #eee;
