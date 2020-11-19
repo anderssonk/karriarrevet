@@ -40,16 +40,6 @@ html {
 	height: 0vh;
 }
 
-.nav-bar {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-evenly;
-}
-
-.nav-bar__item {
-	padding: 0 0.5rem 0 0.5rem;
-}
-
 .App-footer {
 	height: 1.1rem;
 	display: flex;
@@ -80,7 +70,6 @@ html {
 }
 
 .start-container {
-	width: 100vw;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -102,69 +91,13 @@ html {
 	font-weight: 150%;
 }
 
-@media screen and (max-width: 850px) {
-	.App {
-		background-size: cover;
-	}
-	.start-info {
-		justify-content: center;
-	}
-
-	.App-header {
-		position: absolute !important;
-	}
-
-	.nav-up {
-		height: 10vh !important;
-	}
-
-	.container,
-	.content-container,
-	.interview {
-		width: 100vw !important;
-	}
-
-	.interview {
-		background: #eee !important;
-	}
-
-	.interview__section {
-		margin: 0;
-	}
-
-	.q-and-a,
-	.interviewee {
-		width: 100vw !important;
-		margin: 0 !important;
-	}
-
-	.interviewee h5 {
-		padding: 0 2vw !important;
-	}
-
-	.interviewee h6 {
-		padding: 0 2vw 2vw !important;
-	}
-
-	.q-and-a {
-		padding: 0 2vw !important;
-	}
-
-	.About-box {
-		width: 95vw !important;
-		padding: 2vw !important;
-	}
-}
-
 .start-info__section {
 	margin: 5px;
 }
 
 .content-container {
-	display: flex;
-	flex-flow: column wrap;
 	margin: auto;
-	margin: 5vh auto 5vh;
+	margin: 5vh auto;
 	width: 80vw;
 	flex: 1;
 }
@@ -173,7 +106,6 @@ html {
 	flex: 1;
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap-reverse;
 	justify-content: space-between;
 	margin: 0 0 3rem;
 }
@@ -247,4 +179,51 @@ img {
 
 .About-box__section {
 	color: #010101;
+}
+
+@media screen and (max-width: 850px) {
+	.start-info {
+		justify-content: center;
+	}
+
+	.App-header {
+		position: absolute;
+		flex-wrap: wrap;
+	}
+
+	.nav-up {
+		height: 10vh;
+	}
+
+	.container,
+	.content-container {
+		width: 90vw;
+		margin: auto;
+	}
+
+	.interview {
+		flex-direction: column-reverse;
+		background: #eee;
+	}
+
+	.interviewee {
+		width: 100%;
+	}
+
+	.interviewee h5 {
+		padding: 0 2vw;
+	}
+
+	.interviewee h6 {
+		padding: 0 2vw 2vw;
+	}
+
+	.q-and-a {
+		padding: 2vw;
+	}
+
+	.About-box {
+		width: 95vw;
+		padding: 2vw;
+	}
 }
