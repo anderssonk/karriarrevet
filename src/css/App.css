@@ -2,6 +2,8 @@ html {
 	box-sizing: border-box;
 	scroll-behavior: smooth;
 	background: #eee;
+	background-image: url(../images/background.png);
+	background-size: cover;
 }
 
 .vl {
