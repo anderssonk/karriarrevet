@@ -1,7 +1,7 @@
 {
 	"courses": [
 		{
-			"name": "DH2642 Interaktionsprogrammering och dynamiska webben",
+			"name": "Interaktionsprogrammering och dynamiska webben",
 			"id": "DH2642",
 			"responses": [
 				{
@@ -25,7 +25,7 @@
 			]
 		},
 		{
-			"name": "SF1662 Diskret matematik",
+			"name": "Diskret matematik",
 			"id": "SF1662",
 			"responses": [
 				{
@@ -49,7 +49,7 @@
 			]
 		},
 		{
-			"name": "DM2518 Mobilutveckling med webbteknologier",
+			"name": "Mobilutveckling med webbteknologier",
 			"id": "DM2518",
 			"responses": [
 				{
@@ -65,7 +65,7 @@
 		},
 
 		{
-			"name": "DD2352 Algoritmer och komplexitet",
+			"name": "Algoritmer och komplexitet",
 			"id": "DD2352",
 			"responses": [
 				{
@@ -89,7 +89,7 @@
 			]
 		},
 		{
-			"name": "DD1385  Programutvecklingsteknik",
+			"name": "Programutvecklingsteknik",
 			"id": "DD1385",
 			"responses": [
 				{

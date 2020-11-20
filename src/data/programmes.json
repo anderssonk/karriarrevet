@@ -3,6 +3,7 @@
 		{
 			"name": "Alexandra",
 			"programme": "Maskininlärning",
+			"track": "Maskininlärning",
 			"img": "alexandra.jpeg",
 			"answers": {
 				"a1": "Jag har alltid varit intresserad av maskininl\u00E4rning och AI, s\u00E5 i b\u00F6rjan var planen att g\u00E5 Data med inriktning maskininl\u00E4rning. Men n\u00E4r det blev klart att man kunde v\u00E4lja att g\u00E5 maskininl\u00E4rningsmastern valde jag den ist\u00E4llet, mest f\u00F6r att man har mer frihet i vilka kurser man tar och det fungerade b\u00E4st f\u00F6r mig d\u00E5 jag har individuell studieplan. ",
@@ -19,7 +20,8 @@
 		},
 		{
 			"name": "Emma",
-			"programme": "Datalogi, programvaruteknik",
+			"programme": "Datalogi",
+			"track": "Programvaruteknik",
 			"img": "emma.jpeg",
 			"answers": {
 				"a1": "Jag var alldeles f\u00F6r nyfiken p\u00E5 programmering f\u00F6r att st\u00E4nga den d\u00F6rren f\u00F6r tidigt. Sen har jag t\u00E4nkt s\u00E5 vid varje v\u00E4gval. Jag \u00E4r l\u00E5ngt ifr\u00E5n den vassaste utvecklaren men det \u00E4r man s\u00E4llan och jag har kommit mycket l\u00E4ngre inom det \u00E4n vad jag tidigare kunnat f\u00F6rest\u00E4lla mig. Jag k\u00E4nner att jag valt helt r\u00E4tt (:",
@@ -36,7 +38,8 @@
 		},
 		{
 			"name": "Fanny",
-			"programme": "Interaktiv Medieteknik, ljud",
+			"programme": "Interaktiv Medieteknik",
+			"track": "Ljud",
 			"img": "fanny.jpeg",
 			"answers": {
 				"a1": "Jag tyckte att alla kurser l\u00E4t v\u00E4ldigt intressanta och roliga! Ville \u00E4ven inrikta mig mot ljud, vilket var m\u00F6jligt i denna mastern :)",
@@ -53,7 +56,8 @@
 		},
 		{
 			"name": "Felix",
-			"programme": "Datalogi, teoretisk datalogi",
+			"programme": "Datalogi",
+			"track": "Teoretisk datalogi",
 			"img": "felix.jpeg",
 			"answers": {
 				"a1": "Jag tyckte att teoretisk datalogi var ett naturligt val eftersom jag alltid varit intresserad av algoritmer och verkligen gillade kurserna i algoritmer & komplexitet samt avancerade algoritmer p\u00E5 mastern.",
@@ -70,7 +74,8 @@
 		},
 		{
 			"name": "Filip",
-			"programme": "Interaktiv Medieteknik, visuella medier",
+			"programme": "Interaktiv Medieteknik",
+			"track": "Visuella medier",
 			"img": "filip.png",
 			"answers": {
 				"a1": "Jag velade l\u00E4nge mellan datalogi och interaktiv medieteknik, men k\u00E4nner till slut att jag valde helt r\u00E4tt med interaktiv medieteknik. \u00C4ven om det kanske g\u00E5r att argumentera f\u00F6r att datalogin i stort ger en n\u00E5got \"b\u00E4ttre\" och agnostisk programmeringsgrund, s\u00E5 har den \u00E4ven m\u00E5nga kurser som Operativssystem och s\u00E5 vidare, som jag \u00E4r helt ointresserad av. Visserligen finns det n\u00E5gra mindre intressanta kurser p\u00E5 interaktiva mastern ocks\u00E5, men uppl\u00E4gget med denna master och att jag d\u00E5 ist\u00E4llet cherry-picka:t de rena \"datalogikurser\" som jag varit intresserad av med mina valfria po\u00E4ng, k\u00E4nner jag har varit helt r\u00E4tt f\u00F6r mig.",
@@ -84,7 +89,8 @@
 		},
 		{
 			"name": "Linnéa",
-			"programme": "Interaktiv Medieteknik, visuella medier",
+			"programme": "Interaktiv Medieteknik",
+			"track": "Visuella medier",
 			"img": "lelle.jpeg",
 			"answers": {
 				"a1": "Jag ville utforska mer i det jag f\u00E5tt l\u00E4ra mig under \u00E5r tre, men p\u00E5 ett friare och kreativare s\u00E4tt. Jag gick interaktiv medieteknik som inriktning i \u00E5r 3, s\u00E5 det var ett naturligt val att d\u00E5 v\u00E4lja en master med samma namn. Samt att jag fick en bra f\u00F6rst\u00E5else av inriktningen via \u00E4ldre studenter. Valet k\u00E4nns absolut r\u00E4tt f\u00F6r mig. Jag har f\u00E5tt m\u00F6jlighet att f\u00E5 l\u00F6sa problem och komma p\u00E5 nya l\u00F6sningar tillsammans med andra studenter d\u00E4r l\u00E4rarna mer \u00E4r acceleratorer \u00E4n kunskapsb\u00E4rare, vilket har f\u00E5tt mig att v\u00E4xa enormt! ",
@@ -101,7 +107,8 @@
 		},
 		{
 			"name": "Martin",
-			"programme": "Interaktiv Medieteknik, fysisk interaktion",
+			"programme": "Interaktiv Medieteknik",
+			"track": "Fysisk interaktion",
 			"img": "martin.jpeg",
 			"answers": {
 				"a1": "Jag har alltid varit intresserad av design, projektledning och interaktiva verktyg. Den h\u00E4r mastern passade perfekt f\u00F6r mig och jag har absolut valt r\u00E4tt!",
@@ -118,7 +125,8 @@
 		},
 		{
 			"name": "My",
-			"programme": "Datalogi, kognitiva system",
+			"programme": "Datalogi",
+			"track": "Kognitiva system",
 			"img": "my.jpg",
 			"answers": {
 				"a1": "Jag valde datalogi-mastern av flera anledningar! F\u00F6rst av allt har jag en k\u00E4rlek till programmering och allra helst programmerar jag back-end. Jag gillar att skapa  funktionalitet ist\u00E4llet f\u00F6r att kanske skapa n\u00E5got visuellt, vilket man g\u00F6r mer i interaktiva mastern! Sedan tittade jag mycket p\u00E5 kurserna n\u00E4r jag skulle v\u00E4lja master, och tyckte helt enkelt att kurserna i datalogi-mastern verkade mer intressanta och att de skulle passa mig b\u00E4ttre. Jag var lite r\u00E4dd i b\u00F6rjan att det skulle bli sv\u00E5rt, jobbigt och att jag inte skulle ha n\u00E5gon att labba med (de jag brukar h\u00E4nga med valde inte samma master). Det \u00E4r sv\u00E5rt, men \u00E4ven kul och l\u00E4rorikt. Att hitta labbpartners har g\u00E5tt mycket b\u00E4ttre \u00E4n jag trodde, det finns alltid n\u00E5gon annan som ocks\u00E5 letar efter n\u00E5gon. Jag k\u00E4nner verkligen att jag har gjort helt r\u00E4tt val f\u00F6r mig, \u00E4r supern\u00F6jd!",
@@ -132,7 +140,8 @@
 		},
 		{
 			"name": "Karolin",
-			"programme": "ICT Innovation, Human Computer Interaction and Design",
+			"programme": "ICT Innovation",
+			"track": "HCI and Design",
 			"img": "karolin.png",
 			"answers": {
 				"a1": "Flera anledningar! Man f\u00E5r en minor inom entrepren\u00F6rskap och innovation, f\u00E5r umg\u00E5s med m\u00E4nniskor fr\u00E5n olika kulturer, m\u00F6jligheten att \u00E5ka utomlands som en integrerad del av utbildningen ist\u00E4llet f\u00F6r en utbytestermin, lite milj\u00F6ombyte fr\u00E5n Valhalla campuset (bara 2 kurser) och jag tyckte kurserna l\u00E4t roligare j\u00E4mf\u00F6rt med interaktiva mastern. Jag ville g\u00E5 mot mer UX och kreativa kurser och mindre programmering. D\u00E4rav k\u00E4ndes HCID-sp\u00E5ret l\u00E4mpligare \u00E4n fysisk interaktionsdesign p\u00E5 interaktiva mastern som jag f\u00F6rst funderade p\u00E5. Det k\u00E4ndes som jag skulle f\u00E5 mer utav min master \u00E4n bara kurser helt enkelt och med facit i hand s\u00E5 k\u00E4nner jag att jag valt r\u00E4tt!",

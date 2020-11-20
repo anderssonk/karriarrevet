@@ -1,7 +1,17 @@
 html {
 	box-sizing: border-box;
 	scroll-behavior: smooth;
-	background: #101010;
+	background: #eee;
+	background-image: url(../images/background-light.png);
+	background-size: cover;
+}
+
+.vl {
+	background-color: #ccc;
+	mix-blend-mode: difference;
+	width: 1px;
+	border-radius: 2rem;
+	margin: 1rem;
 }
 
 .transition {
@@ -12,7 +22,8 @@ html {
 	background: #101010;
 	background-image: url(../images/coral-reef.jpg);
 	height: 100vh;
-	background-size: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .overlay {
@@ -23,7 +34,7 @@ html {
 
 .App-header {
 	position: fixed; /* Sit on top of the page content */
-	font-family: "Poppins";
+	font-family: 'Poppins';
 	height: 10vh;
 	display: flex;
 	flex-direction: row;
@@ -39,34 +50,20 @@ html {
 	height: 0vh;
 }
 
-.nav-bar {
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-evenly;
-}
-
-.nav-bar__item {
-	padding: 0 0.5rem 0 0.5rem;
-}
-
 .App-footer {
 	height: 1.1rem;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
+	text-align: center;
 	font-size: calc(5px + 1vmin);
-	background-color: #101010;
 	padding: 10px 0;
-	color: #333;
+	color: #999;
 }
 
 .App-footer a {
-	color: #333;
+	color: #999;
 }
 
 .App-footer a:hover {
-	color: #555;
+	color: #777;
 }
 
 @keyframes fadein {
@@ -79,7 +76,6 @@ html {
 }
 
 .start-container {
-	width: 100vw;
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -91,68 +87,14 @@ html {
 }
 
 .start-info {
+	max-width: 95vw;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: stretch;
-	align-items: center;
+	justify-content: center;
 	color: white;
 	font-size: calc(5px + 2vmin);
 	font-weight: 150%;
-}
-
-@media screen and (max-width: 850px) {
-	.App {
-		background-size: cover;
-	}
-	.start-info {
-		justify-content: center;
-	}
-
-	.App-header {
-		position: absolute !important;
-	}
-
-	.nav-up {
-		height: 10vh !important;
-	}
-
-	.container,
-	.content-container,
-	.interview {
-		width: 100vw !important;
-	}
-
-	.interview {
-		background: #eee !important;
-	}
-
-	.interview__section {
-		margin: 0;
-	}
-
-	.q-and-a,
-	.interviewee {
-		width: 100vw !important;
-		margin: 0 !important;
-	}
-
-	.interviewee h5 {
-		padding: 0 2vw !important;
-	}
-
-	.interviewee h6 {
-		padding: 0 2vw 2vw !important;
-	}
-
-	.q-and-a {
-		padding: 0 2vw !important;
-	}
-
-	.About-box {
-		width: 95vw !important;
-		padding: 2vw !important;
-	}
 }
 
 .start-info__section {
@@ -160,21 +102,24 @@ html {
 }
 
 .content-container {
-	display: flex;
-	flex-flow: column wrap;
 	margin: auto;
-	margin: 5vh auto 5vh;
-	width: 80vw;
+	margin: 10vh auto 0 auto;
+	width: 65vw;
 	flex: 1;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
 }
 
 .interview {
 	flex: 1;
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap-reverse;
 	justify-content: space-between;
-	margin: 0 0 3rem;
+	/* background-color: #eee; */
+	margin: 2rem 0 2rem;
 }
 
 .interview__section {
@@ -183,44 +128,27 @@ html {
 
 .q-and-a {
 	flex: 1;
-	background: #eee;
-	margin: 0 1rem 0 0;
-	padding: 0.5rem;
+	margin: 0;
 }
 
 .interviewee {
-	width: 25vw;
+	padding-top: 1rem;
+	width: 12vw;
+	text-align: center;
 }
 
-img {
+.interview img {
 	width: inherit;
+	border-radius: 50%;
+	filter: contrast(103%);
 }
 
-.App-link {
-	color: #61dafb;
-}
-
-.App-container-item {
-	background-color: white;
-	margin: 5px;
-	height: 40vh;
-	width: 40vw;
-}
-
-@media screen and (max-width: 480px) {
-	.App-container {
-		width: 95vw;
-		display: flex;
-		flex-flow: row wrap;
-		align-items: flex-start;
-		justify-content: center;
-	}
-	.App-container-item {
-		background-color: white;
-		margin: 5px;
-		height: 10vh;
-		width: 100vw;
-	}
+.circle {
+	height: 0.3rem;
+	width: 10rem;
+	margin: auto;
+	background-color: rgb(202, 223, 230);
+	border-radius: 2rem;
 }
 
 .About {
@@ -246,4 +174,83 @@ img {
 
 .About-box__section {
 	color: #010101;
+}
+
+.question {
+	color: #101010;
+	cursor: pointer;
+	padding: 1rem 0 0.5rem 0;
+	border: none;
+	text-align: left;
+	outline: none;
+}
+
+.answer {
+	text-align: justify;
+}
+
+@media screen and (max-width: 850px) {
+	.start-info {
+		justify-content: center;
+	}
+
+	.App-header {
+		position: absolute;
+		flex-wrap: wrap;
+	}
+
+	.nav-up {
+		height: 10vh;
+	}
+
+	.content-container {
+		width: 94vw;
+		margin: 3rem auto;
+	}
+
+	.interview {
+		display: block;
+	}
+
+	.interviewee {
+		width: 100%;
+		text-align: left;
+	}
+
+	.interviewee h5 {
+		padding: 0 2vw;
+	}
+
+	.interviewee h6 {
+		padding: 0 2vw 2vw;
+	}
+
+	.q-and-a {
+		padding: 2vw;
+	}
+
+	.About-box {
+		width: 88vw;
+		padding: 2vw;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.App-container {
+		width: 95vw;
+		display: flex;
+		flex-flow: row wrap;
+		align-items: flex-start;
+		justify-content: center;
+	}
+	.App-container-item {
+		background-color: white;
+		margin: 5px;
+		height: 10vh;
+		width: 100vw;
+	}
+
+	.interviewee img {
+		border-radius: 0.1rem;
+	}
 }
