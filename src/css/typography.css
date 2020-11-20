@@ -2,21 +2,33 @@ html {
 	font-size: calc(95% + 0.05vw);
 	overflow-wrap: break-word;
 	word-wrap: break-word;
+	hyphens: auto;
+}
+
+.question {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	margin: 0 0 0.5rem;
 }
 
 h1,
-h2,
+h2 {
+	font-family: 'Poppins';
+	color: #eee;
+}
+
 h3,
 h4,
 h5,
 h6 {
 	font-family: 'Poppins';
-	color: #eee;
+	color: #101010;
 }
 
 p,
 span {
-	font-family: 'Roboto', sans-serif;
+	font-family: sans-serif;
+	text-align: justify;
 }
 
 h1 {
@@ -30,8 +42,15 @@ h2 {
 }
 
 h3 {
+	line-height: 1;
 	font-size: 2.5rem;
-	margin: 0 0 1rem;
+	margin: 0.5rem 0;
+}
+
+.id {
+	line-height: 1;
+	margin: 0;
+	color: rgb(95, 189, 218);
 }
 
 h4 {
@@ -60,13 +79,18 @@ h6 {
 
 @media screen and (max-width: 850px) {
 	h3 {
-		font-size: 1.7rem !important;
+		font-size: 1.7rem;
 	}
 	h5,
 	h6 {
-		color: #101010 !important;
+		color: #101010;
 	}
 	.h5 {
-		font-size: 1.5rem !important;
+		font-size: 1.5rem;
+	}
+
+	.question,
+	.answer {
+		padding: 0 0 0.7rem;
 	}
 }
