@@ -13,13 +13,14 @@ const Datalogi = () => {
 	return (
 		<>
 			<div className='content-container' id='datalogi'>
-				<h3 className='programme-id'>TCSCM</h3>
+				<h3 className='id'>TCSCM</h3>
 				<h3>Datalogi</h3>
 				{persons.map((person) => (
 					<Interview
 						key={person.name}
 						name={person.name}
 						programme={person.programme}
+						track={person.track}
 						img={person.img}
 						questions={Object.values(questions)}
 						answers={Object.values(person.answers)}

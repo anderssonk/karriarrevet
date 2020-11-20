@@ -15,13 +15,14 @@ const questions = data.questions;
 const Interaktiv = () => {
 	return (
 		<div className='content-container' id='interaktiv-medieteknik'>
-			<h3 className='programme-id'>TIMTM</h3>
+			<h3 className='id'>TIMTM</h3>
 			<h3>Interaktiv Medieteknik</h3>
 			{persons.map((person) => (
 				<Interview
 					key={person.name}
 					name={person.name}
 					programme={person.programme}
+					track={person.track}
 					img={person.img}
 					questions={Object.values(questions)}
 					answers={Object.values(person.answers)}

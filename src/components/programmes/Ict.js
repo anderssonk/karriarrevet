@@ -8,13 +8,14 @@ const questions = data.questions;
 const Ict = () => {
 	return (
 		<div className='content-container' id='ict'>
-			<h3 className='programme-id'>TIVNM</h3>
+			<h3 className='id'>TIVNM</h3>
 			<h3>ICT Innovation</h3>
 			{persons.map((person) => (
 				<Interview
 					key={person.name}
 					name={person.name}
 					programme={person.programme}
+					track={person.track}
 					img={person.img}
 					questions={Object.values(questions)}
 					answers={Object.values(person.answers)}
