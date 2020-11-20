@@ -55,9 +55,8 @@ function App() {
 						/>
 					</Switch>
 				</Router>
-				<Footer></Footer>
 			</div>
-
+			<Footer></Footer>
 			<a href='#top'>
 				<Button type='topBtn' id='topBtn'>
 					^

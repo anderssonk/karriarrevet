@@ -1,27 +1,31 @@
-import React from "react";
+import React from 'react';
+import QuestionCard from './QuestionCard';
 
-const Interview = ({ name, programme, img, questions, answers, bonus }) => {
+const Interview = ({
+	name,
+	programme,
+	track,
+	img,
+	questions,
+	answers,
+	bonus,
+}) => {
 	return (
 		<>
-			<div className="interview">
-				<div className="interview__section q-and-a">
-					{questions.map((question, index) => (
-						<span>
-							<b>{question}</b>
-							<p>{answers[index]}</p>
-						</span>
-					))}
-					<div>
-						<p>
-							<b>Bonusfråga: {bonus[0]}</b>
-						</p>
-						<p>{bonus[1]}</p>
-					</div>
-				</div>
-				<div className="interview__section interviewee">
+			<div className='interview'>
+				<div className='interview__section interviewee'>
 					<img id={img} src={require(`../../images/${img}`)} alt={name}></img>
 					<h5>{name}</h5>
-					<h6>{programme}</h6>
+					<h6>{track}</h6>
+				</div>
+				<div className='vl' />
+				<div className='interview__section q-and-a'>
+					{questions.map((question, index) => (
+						<>
+							<QuestionCard question={question} answer={answers[index]} />
+						</>
+					))}
+					<QuestionCard question={bonus[0]} answer={bonus[1]} />
 				</div>
 			</div>
 		</>
