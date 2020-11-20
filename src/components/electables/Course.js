@@ -13,6 +13,7 @@ const Course = ({ course, questions }) => {
 				{responses.map((response, i) => (
 					<>
 						<Response
+							key={response.name}
 							name={response.name}
 							img={response.img}
 							questions={Object.values(questions)}
