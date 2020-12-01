@@ -8,10 +8,9 @@ html {
 
 .vl {
 	background-color: #ccc;
-	mix-blend-mode: difference;
 	width: 1px;
 	border-radius: 2rem;
-	margin: 1rem;
+	margin: 1.6rem 1rem;
 }
 
 .transition {
